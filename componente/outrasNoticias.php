@@ -69,10 +69,9 @@
         width:50%;
         background-size:cover;
         height:200px;
+        border-radius:7px;
     }
-    .imagem-lista img{
-        width:100%;
-    }
+    
     .info{
         width:50%;
        
@@ -87,6 +86,7 @@
     }
     .titulo-lista{
         font-size:18px;
+        font-weight
         
     }
     
@@ -95,6 +95,12 @@
             width:65%;
             
         }
+        .titulo-lista{
+            font-size:22px;
+            font-weight
+            
+        }
+        
     }
 
     @media screen and (min-width: 1200px){
