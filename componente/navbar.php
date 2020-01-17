@@ -1,73 +1,95 @@
 <?php 
-
+    
 
 
 ?>
 
 
 <div class="fundo container-flex">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#142248">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#142248">
 
-                <button class="navbar-toggler hamb" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <button class="navbar-toggler hamb" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <div class="collapse navbar-collapse menu" id="conteudoNavbarSuportado">
-                    <ul class="navbar-nav mr-auto pc">
-                        <li><a href="#/noticias/destaques" @click="navigateTo()">destaques portuários</a></li>
+            <div class="collapse navbar-collapse menu" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto pc">
+                    <li><a href="https://jornalportodopecem.com.br/#/noticias/destaques" >destaques portuários</a></li>
+        
+                    <li class="noticias-btn"><a href="https://jornalportodopecem.com.br/#/noticias/noticias" >Notícias</a>
+                        <ul>
+                            <li><a href="https://jornalportodopecem.com.br/#/noticias/nacionais">Nacionais</a></li>
+                            
+                            <li><a href="https://jornalportodopecem.com.br/#/noticias/internacionais" >Internacionais</a></li>
+                                            
+                        </ul>
+                    </li>
+                    
+                    <li><a href="https://jornalportodopecem.com.br/#/noticias/artigos" >Artigos e Opinião</a></li>
+                    
+                    <li><a href="https://jornalportodopecem.com.br/#/noticias/turismo" > turismo</a></li>
+
+                    <li><a href="https://jornalportodopecem.com.br/#/noticias/comex" >Comércio exterior</a></li>
+                    <li><a href="https://jornalportodopecem.com.br/#/noticias/logistica">logística e transporte</a></li>
+                    <li><a href="https://jornalportodopecem.com.br/#/noticias/entrevistas" >entrevistas</a></li> 
+                    <li><a href="https://jornalportodopecem.com.br/#/noticias/portos" >Portos do Brasil</a></li>
+                    <li><a href="https://jornalportodopecem.com.br/#/noticias/eventos" >Eventos</a></li>
+                </ul>
+
+
+                <ul class="cel">
             
-                        <li class="noticias-btn"><a href="#/noticias/noticias" @click="navigateTo()">Notícias</a>
-                            <ul>
-                                <li><a href="#/noticias/nacionais" @click="navigateTo()">Nacionais</a></li>
-                                
-                                <li><a href="#/noticias/internacionais" @click="navigateTo()">Internacionais</a></li>
-                                                
-                            </ul>
-                        </li>
-                        
-                        <li><a href="#/noticias/artigos" @click="navigateTo()">Artigos e Opinião</a></li>
-                        
-                        <li><a href="#/noticias/turismo" @click="navigateTo()"> turismo</a></li>
+                    <li><a href="https://jornalportodopecem.com.br/#/noticias/destaques" >destaques portuários</a></li>
+                    
+                    <li><a href="https://jornalportodopecem.com.br/#/noticias/nacionais">Nacionais</a></li>
+                            
+                    <li><a href="https://jornalportodopecem.com.br/#/noticias/internacionais" >Internacionais</a></li>
+                    
+                    <li><a href="https://jornalportodopecem.com.br/#/noticias/artigos" >Artigos e Opinião</a></li>
+                    
+                    <li><a href="https://jornalportodopecem.com.br/#/noticias/turismo" > turismo</a></li>
 
-                        <li><a href="#/noticias/comex" @click="navigateTo()">Comércio exterior</a></li>
-                        <li><a href="#/noticias/logistica" @click="navigateTo()">logística e transporte</a></li>
-                        <li><a href="#/noticias/entrevistas" @click="navigateTo()">entrevistas</a></li> 
-                        <li><a href="#/noticias/portos" @click="navigateTo()">Portos do Brasil</a></li>
-                        <li><a href="#/noticias/eventos" @click="navigateTo()">Eventos</a></li>
-                    </ul>
-
-
-                    <ul class="cel">
-              
-                        <li><a href="#/noticias/destaques" >destaques portuários</a></li>
-                        
-                        <li><a href="#/noticias/nacionais" >Nacionais</a></li>
-                                        
-                        <li><a href="#/noticias/internacionais" >Internacionais</a></li>
-                        
-                        <li><a href="#/noticias/artigos" >Artigos e Opinião</a></li>
-                        
-                        <li><a href="#/noticias/turismo" > turismo</a></li>
-
-                        <li><a href="#/noticias/comex" >Comércio exterior</a></li>
-                        <li><a href="#/noticias/logistica" >logística e transporte</a></li>
-                        <li><a href="#/noticias/entrevistas" >entrevistas</a></li> 
-                        <li><a href="#/noticias/portos" >Portos do Brasil</a></li>
-                        <li><a href="#/noticias/eventos" >Eventos</a></li>
-                                                            
-                    </ul>
+                    <li><a href="https://jornalportodopecem.com.br/#/noticias/comex" >Comércio exterior</a></li>
+                    <li><a href="https://jornalportodopecem.com.br/#/noticias/logistica">logística e transporte</a></li>
+                    <li><a href="https://jornalportodopecem.com.br/#/noticias/entrevistas" >entrevistas</a></li> 
+                    <li><a href="https://jornalportodopecem.com.br/#/noticias/portos" >Portos do Brasil</a></li>
+                    <li><a href="https://jornalportodopecem.com.br/#/noticias/eventos" >Eventos</a></li>
+                                                        
+                </ul>
 
 
 
-                    <form class="form-inline my-2 my-lg-0 pesquise">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-                    </form>
-                </div>
-            </nav>
-        </div>
+                <form class="form-inline my-2 my-lg-0 pesquise" id="formulario">
+                    <input class="form-control mr-sm-2" id="input-pesquisa" type="search" placeholder="Pesquisar" aria-label="Pesquise">
+                    <button class="btn btn-outline-success my-2 my-sm-0 btn-pesquisa" type="submit">Pesquise</button>
+                    <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button> -->
+                </form>
+            </div>
+        </nav>
     </div>
+</div>
+<div class="container" style="margin-top:13px; width:150%;">
+    <form class="form-inline my-2 my-lg-0 pesquisa" id="formulario">
+        <input size="46.5" class="form-control mr-sm-2 form-control-sm input-pesquisa" type="search" placeholder="Pesquise" aria-label="Pesquisar">
+        <button class="btn btn-outline-success my-2 my-sm-2 btn-sm btn-pesquisa"  type="submit">Pesquisar</button>
+        <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button> -->
+    </form>
+
+</div>
+
+<script>
+    var form = document.getElementById('formulario');
+    var campo = document.getElementById('input-pesquisa');
+
+    form.addEventListener('submit', function(e) {
+        // alerta o valor do campo
+        window.location = "https://jornalportodopecem.com.br/#/resultado/"+campo.value;
+
+        // impede o envio do form
+        e.preventDefault();
+    });
+</script>
 
 <style>
     .fundo{
@@ -97,6 +119,13 @@
         color: #009999;
         text-decoration: none;
     }
+    .pesquisa{
+        display:none
+    }
+    .btn-pesquisa{
+        background:#009999;
+        color:white;
+    }
 
 /*versão pc*/
 
@@ -106,7 +135,12 @@
             display:none;
             
         }
-
+        .pesquisa{
+            display:block;
+            margin-left:59.5%;
+            
+        }
+        
         .pc{display:block}
         .noticias-btn{
             display: block;

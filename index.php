@@ -15,23 +15,12 @@ include("api/noticiasAleatorias.php");
         <?php include("componente/cabecalho.php")?>
         <?php include("componente/navbar.php")?>
         <?php include("componente/noticia.php")?>
+        <?php include("componente/facebook.php")?>
         <?php include("componente/outrasNoticias.php")?>
+        <?php include("componente/rodape.php")?>
         
-        <div id="fb-root"></div>
-        <script>(function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
-
-        <!-- Your share button code -->
-        <div class="fb-share-button" 
-            data-href="<?php echo $_SERVER['SCRIPT_URI'] ?>" 
-            data-layout="button_count">
-        </div>
-        <a href="<?php $_GET['url']. '/' ?>">vai</a>
+        
+        
         
         
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

@@ -65,7 +65,16 @@
     /*versão pc*/
   
     @media screen and (min-width: 992px){
-   
+        .logo{
+            margin-left:-70px;
+            width:65%;
+        }
+        .anuncio img{
+            width:175%;
+            margin-left:70px;
+            margin-top:111px;
+            height:100px;
+        }
     
 
 

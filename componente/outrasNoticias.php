@@ -55,7 +55,7 @@
         border-top: 4px solid #009999;
         margin-left:0px;
         margin-top:3px;
-        margin-bottom:10px;
+        margin-bottom:20px;
         width:95%;
     }
     .noticia-lista{
