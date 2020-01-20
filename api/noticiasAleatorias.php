@@ -6,10 +6,12 @@
         $mostraId = mysqli_fetch_assoc($id_maior);
         while($aprovado==0){
             $idAleatorio= rand ( 7 , $mostraId["id"] );
-            if ($idAleatorio!=$id or $idAleatorio!=$idAnterior){
+            if ($idAleatorio!=$id and $idAleatorio!=$idAnterior){
                 $valor_retorno = mysqli_query($connect, "SELECT * FROM Noticia WHERE id=$idAleatorio");
                 $mostra = mysqli_fetch_assoc($valor_retorno);
-                $aprovado=1;
+                if ($mostra!=null){    
+                    $aprovado=1;
+                }         
             }   
         }
         return $mostra;
