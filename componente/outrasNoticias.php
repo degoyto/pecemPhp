@@ -86,7 +86,6 @@
     }
     .titulo-lista{
         font-size:18px;
-        font-weight
         
     }
     
@@ -97,7 +96,6 @@
         }
         .titulo-lista{
             font-size:22px;
-            font-weight
             
         }
         

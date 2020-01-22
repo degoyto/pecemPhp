@@ -17,10 +17,10 @@
         
         <div class="logo-anuncio">
             <a class="logo" href="https://jornalportodopecem.com.br">
-                <img src="../assets/logo.svg"/>
+                <img src="https://firebasestorage.googleapis.com/v0/b/jornal-porto-do-pecem.appspot.com/o/logo.svg?alt=media&token=445447d8-81bb-4cdb-8006-55eb0c677445"/>
             </a>
             <a class="anuncio" href="https://jornalportodopecem.com.br">
-                <img src="../assets/anuncio.jpg"/>
+                <img src="https://firebasestorage.googleapis.com/v0/b/jornal-porto-do-pecem.appspot.com/o/anuncio.jpg?alt=media&token=df4d99dd-84b5-4a9e-bda9-e15c12842135"/>
             </a>
         </div>
 
