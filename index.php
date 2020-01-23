@@ -1,34 +1,47 @@
 <?php 
-    include("api/principaisNoticias.php");
+
+    $REQUEST_URI = filter_input(INPUT_SERVER, 'REQUEST_URI');
+    $INITE = strpos($REQUEST_URI, "?");
+    if($INITE){
+        $REQUEST_URI = substr($REQUEST_URI, 0, $INITE);
+    }
+    $REQUEST_URI_PASTA = substr($REQUEST_URI, 10);
+
+    $URL = explode("/", $REQUEST_URI_PASTA);
+    if ($URL[0] == ''){
+        $URL[0] = 'home';
+    }
+    
+
+    if(file_exists('__confidencialsite__/'.$URL[0].".php")){
+        if($URL[0]=="noticia" and $URL[1] == ""){
+            require ('__confidencialsite__/404.php');
+        }
+        else{
+            require ('__confidencialsite__/'.$URL[0].".php");
+        }
+        
+    }
+    elseif (is_dir('__confidencialsite__/'.$URL[0])) {
+        if($URL[0]=='api' or $URL[0]=='assets' or $URL[0]=='componente' or $URL[0]=='css'){
+            require ('__confidencialsite__/404.php');
+        }
+        else{
+            echo "teste";
+        }
+        # code...
+    }
+    else{
+        require ('__confidencialsite__/404.php');
+    }
+    
 
 
 
 
 
 ?>
-<!DOCTYPE html>
-<html>
-    <?php include("componente/headGeral.php")?>
-    <?php include("componente/cabecalho.php")?>
-    <?php include("componente/navbar.php")?>
-    <?php include("componente/paginaInicial/principaisNoticias.php")?>
-    
-    
 
 
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-    <style>
-        .testando{
-            width:100%;
-            height:80vh;
-            background:green;
-        }
-    
-    </style>
-</html>
 
 

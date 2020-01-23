@@ -6,6 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" <?php echo "content='" . $exibe['resumo'] . "'"; ?>>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <meta property="og:url"           content="<?php //echo $_SERVER['SCRIPT_URI'] ?>" />  -->
     <meta property="og:url"           content="<?php echo $_GET['url'] ?>" /> 
