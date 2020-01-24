@@ -32,15 +32,49 @@
                     
                 </a>
             </div> <!-- final da div com os dados da notícia -->
+
+
             <!-- início de outras notícias principais -->
-            <div class="outras-noticias-principais">
-                <?php include("principaisNoticias2.php")?>
-            </div><!-- final de outras notícias principais -->
+            <!-- <div class="outras-noticias-principais">
+                <?php //include("principaisNoticias2.php")?>
+            </div>final de outras notícias principais -->
             
         </div> <!-- final da div notícias -->
+
+
         <div class ="outros">
-    
+            <!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container container">
+                <div class="tradingview-widget-container__widget"></div>
+                <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/FX_IDC-USDBRL/" rel="noopener" target="_blank"><span class="blue-text">USDBRL Cotações</span></a> pelo TradingView</div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+                    {
+                    "symbol": "FX_IDC:USDBRL",
+                    "width": 350,
+                    "height": 220,
+                    "locale": "br",
+                    "dateRange": "1d",
+                    "colorTheme": "light",
+                    "trendLineColor": "#37a6ef",
+                    "underLineColor": "#e3f2fd",
+                    "isTransparent": false,
+                    "autosize": false,
+                    "largeChartUrl": ""
+                    }
+                </script>
+            </div>
+            <div class="container div-anuncio">
+                <a href="http://www.rodopublis.com.br" class="link-anuncio">
+                    <img src="https://imagensportopecem2.s3.amazonaws.com/anuncios/rodo.jpg" class="anuncio">
+                </a>
+            </div>
+            <button type="button" class="btn btn-primary btn-boletim">BOLETIM PORTUÁRIO</button>
+            <!-- TradingView Widget END -->
         </div>
+    </div>
+
+    <div class="outras-noticias-principais-cel">
+        <?php include("principaisNoticias2.php")?>
     </div>
     
    
@@ -48,79 +82,7 @@
         
   
 
-<style>
-    /* cabecalho das noticias principais */
-    .container{
-        text-align:center;
-        
-    }
-    .titulo-pagina{
-        margin-top:20px;
-        font-size: 150%;
-    }
-    hr{
-      display:block;
-      border-top: 4px solid #009999;
-      margin-left:5%;
-      margin-top:3px;
-      margin-bottom:-2px;
-      width:90%;
-    }
-    /* noticia */
-    .div-noticia{
-        margin-top:20px;
-        width:100%;
-        text-align:left;
-        
-    }
-    .div-noticia a{
-        text-decoration:none;
-    }
-    /* imagem */
-    .img-noticia{
-        width: 100%;
-        height:40vh;
-        border-radius:7px;
-        background:gray;
-        min-width:250px;
-        min-height:250px;
-        max-height:350px;
-        background-size:cover;
-    }
-    /* o tipo da noticia */
-    .tipo-noticia{
-        color:#009999;
-        text-transform:uppercase;
-        font-size:12px;
-        margin-top:20px;
-    }
-    .tipo-noticia:hover{
-        color:#142248;
-    }
-    /* titulo da noticia */
-    .titulo-noticia{
-        font-size:24px;
-        color:#212121;
-        margin-top:-15px;
-    }
-    .titulo-noticia:hover{
-        color:#009999;
-    }
 
-    /* resumo da notícia (bigode) */
-    .resumo-noticia{
-        font-size:16px;
-        color:#212121;
-        
-    }
-    .outras-noticias-principais{
-        text-align:left;
-    }
-
-
-    
-
-</style>
     
 
 

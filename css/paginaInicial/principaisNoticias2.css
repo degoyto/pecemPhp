@@ -1,0 +1,27 @@
+
+.caixa-noticia-2{
+   text-align:left;
+   margin-top:50px;
+}
+.caixa-noticia-2 a:hover{
+    text-decoration: none;
+}
+.tipo-noticia-2{
+    color:#009999;
+    font-size:12px;
+    text-transform: uppercase;
+    margin-bottom:0px;
+}
+.tipo-noticia-2:hover{
+    
+    color:#142248;
+    
+}
+.titulo-noticia-2{
+    color:#212121;
+
+}
+.titulo-noticia-2:hover{
+    color:#009999;
+    
+}

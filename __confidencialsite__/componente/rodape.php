@@ -10,34 +10,27 @@
     <div class="rodape">
         <div class="container itens">
             <ul>
-                <li><a href="#/noticias/destaques" >destaques portuários</a></li>
-                    
-                <li><a href="#/noticias/nacionais" >Nacionais</a></li>
-                            
-                <li><a href="#/noticias/internacionais" >Internacionais</a></li>
-                
-                <li><a href="#/noticias/artigos" >Artigos e Opinião</a></li>
-                
-                <li><a href="#/noticias/turismo" > turismo</a></li>
-
-                <li><a href="#/noticias/comex" >Comércio exterior</a></li>
-                <li><a href="#/noticias/logistica" >logística e transporte</a></li>
-                <li><a href="#/noticias/entrevistas" >entrevistas</a></li> 
-                <li><a href="#/noticias/portos" >Portos do Brasil</a></li>
-                <li><a href="#/noticias/eventos" >Eventos</a></li>
-                                                
-                        
-                    
+                <li><a href="https://jornalportodopecem.com.br/#/noticias/destaques" >destaques portuários</a></li>
+                <li><a href="https://jornalportodopecem.com.br/#/noticias/nacionais">Nacionais</a></li>
+                <li><a href="https://jornalportodopecem.com.br/#/noticias/internacionais" >Internacionais</a></li>
+                <li><a href="https://jornalportodopecem.com.br/#/noticias/artigos" >Artigos e Opinião</a></li>
+                <li><a href="https://jornalportodopecem.com.br/#/noticias/turismo" > turismo</a></li>
+                <li><a href="https://jornalportodopecem.com.br/#/noticias/comex" >Comércio exterior</a></li>
+                <li><a href="https://jornalportodopecem.com.br/#/noticias/logistica">logística e transporte</a></li>
+                <li><a href="https://jornalportodopecem.com.br/#/noticias/entrevistas" >entrevistas</a></li> 
+                <li><a href="https://jornalportodopecem.com.br/#/noticias/portos" >Portos do Brasil</a></li>
+                <li><a href="https://jornalportodopecem.com.br/#/noticias/eventos" >Eventos</a></li>
             </ul>
         </div>
         <div class="container menu2">
             <ul class="menu-rodape" >
 
-                <!-- <li><a class="primeiro-link" href="#">INFORMAÇÕES ÚTEIS</a></li>
+                <!-- 
+                <li><a class="primeiro-link" href="#">INFORMAÇÕES ÚTEIS</a></li>
                 <li><a href="#">EMPREGOS NO PECÉM</a></li>    -->
 
-                <li><a href="#/quemsomos">QUEM SOMOS</a></li>
-                <li><a href="#/expediente">EXPEDIENTE</a></li>
+                <li><a href="https://jornalportodopecem.com.br/#/quemsomos">QUEM SOMOS</a></li>
+                <li><a href="https://jornalportodopecem.com.br/#/expediente">EXPEDIENTE</a></li>
                 <li><a href="#">CONTATO</a></li>
                 
             </ul>

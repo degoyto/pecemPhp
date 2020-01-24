@@ -9,9 +9,20 @@ include("api/noticiasAleatorias.php");
 ?>
 <!DOCTYPE html>
 <html>
+    <head>
+        <?php include("componente/head.php")?>
+        <link type="text/css" rel="stylesheet" href="../css/noticia/outrasNoticias.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/noticia/noticia.css"/>
+        <style>
+            body{
+                font-family: 'Roboto', sans-serif;
+            }
+        
+        </style>
+    </head>
     
     <body>
-        <?php include("componente/head.php")?>
+        
         <?php include("componente/cabecalho.php")?>
         <?php include("componente/navbar.php")?>
         <?php include("componente/noticia.php")?>
@@ -28,12 +39,7 @@ include("api/noticiasAleatorias.php");
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 
-    <style>
-        body{
-            font-family: 'Roboto', sans-serif;
-        }
     
-    </style>
     
 </html>
 

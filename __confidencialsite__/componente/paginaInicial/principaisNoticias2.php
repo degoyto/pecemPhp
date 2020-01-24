@@ -4,24 +4,52 @@
 
 ?>
 <!-- principais noticias 2 -->
-<div >
+<div class="container">
     <!-- informações da notícia -->
-    <div class="caixa-noticia-2">
-        <a href="https://jornalportodopecem.com.br/#/noticias/<?php echo $listaNoticia[0]['tipo'] ?>">
+    <div class="caixa-noticia-2 container">
+        <a href="https://jornalportodopecem.com.br/#/noticias/<?php echo $listaNoticia[1]['tipo'] ?>">
             <p class="tipo-noticia-2">
-                <?php echo $listaNoticia[0]["tipo"]?>
+                <?php echo $listaNoticia[1]["tipo"]?>
             </p>
         </a>
-        <a class="link-noticia" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[0]['id'] ?>">
+        <a class="link-noticia" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[1]['id'] ?>">
             <p class="titulo-noticia-2">
-                <?php echo $listaNoticia[0]["title"]?>
+                <?php echo $listaNoticia[1]["title"]?>
             </p>
-            <p class="resumo-noticia-2">
-                <?php echo $listaNoticia[0]["resumo"]?>
+           
+        </a>
+    </div>
+    <div class="caixa-noticia-2 container">
+        <a href="https://jornalportodopecem.com.br/#/noticias/<?php echo $listaNoticia[2]['tipo'] ?>">
+            <p class="tipo-noticia-2">
+                <?php echo $listaNoticia[2]["tipo"]?>
             </p>
+        </a>
+        <a class="link-noticia" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[2]['id'] ?>">
+            <p class="titulo-noticia-2">
+                <?php echo $listaNoticia[2]["title"]?>
+            </p>
+            
             
         </a>
     </div>
+
+
+    <div class="caixa-noticia-2 container">
+        <a href="https://jornalportodopecem.com.br/#/noticias/<?php echo $listaNoticia[3]['tipo'] ?>">
+            <p class="tipo-noticia-2">
+                <?php echo $listaNoticia[3]["tipo"]?>
+            </p>
+        </a>
+        <a class="link-noticia" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[3]['id'] ?>">
+            <p class="titulo-noticia-2">
+                <?php echo $listaNoticia[3]["title"]?>
+            </p>
+            
+            
+        </a>
+    </div>
+   
    
     
    
@@ -30,12 +58,7 @@
   
 
 <style>
-    .dois{
-        text-align:left;
-    }
-   .caixa-noticia-2{
-       text-align:left;
-   }
+   
 
 
     
