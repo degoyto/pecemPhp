@@ -44,14 +44,14 @@
 
         <div class ="outros">
             <!-- TradingView Widget BEGIN -->
-            <div class="tradingview-widget-container container">
+            <div class="tradingview-widget-container caixa-dolar-cel">
                 <div class="tradingview-widget-container__widget"></div>
                 <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/FX_IDC-USDBRL/" rel="noopener" target="_blank"><span class="blue-text">USDBRL Cotações</span></a> pelo TradingView</div>
                 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
                     {
                     "symbol": "FX_IDC:USDBRL",
-                    "width": 350,
-                    "height": 220,
+                    "width": 280,
+                    "height": 180,
                     "locale": "br",
                     "dateRange": "1d",
                     "colorTheme": "light",
@@ -63,12 +63,33 @@
                     }
                 </script>
             </div>
+            <div class="tradingview-widget-container caixa-dolar-pc">
+                <div class="tradingview-widget-container__widget"></div>
+                <div class="tradingview-widget-copyright"><a href="https://br.tradingview.com/symbols/FX_IDC-USDBRL/" rel="noopener" target="_blank"><span class="blue-text">USDBRL Cotações</span></a> pelo TradingView</div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+                    {
+                    "symbol": "FX_IDC:USDBRL",
+                    "width": 390,
+                    "height": 180,
+                    "locale": "br",
+                    "dateRange": "1d",
+                    "colorTheme": "light",
+                    "trendLineColor": "#37a6ef",
+                    "underLineColor": "#e3f2fd",
+                    "isTransparent": false,
+                    "autosize": false,
+                    "largeChartUrl": ""
+                    }
+                </script>
+            </div>
+            
             <div class="container div-anuncio">
                 <a href="http://www.rodopublis.com.br" class="link-anuncio">
                     <img src="https://imagensportopecem2.s3.amazonaws.com/anuncios/rodo.jpg" class="anuncio">
                 </a>
             </div>
             <button type="button" class="btn btn-primary btn-boletim">BOLETIM PORTUÁRIO</button>
+            <button type="button" class="btn btn-primary btn-boletim">CLASSIFICADOS</button>
             <!-- TradingView Widget END -->
         </div>
     </div>

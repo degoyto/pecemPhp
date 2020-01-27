@@ -63,12 +63,21 @@ hr{
 .outras-noticias-principais{
     text-align:left;
 }
+/* caixa com informações dolar */
 
+.caixa-dolar-cel{
+    
+}
+.caixa-dolar-pc{
+    display:none;
+
+}
 /* div outro, anuncio e trading view */
 .div-anuncio{
-    margin-top:40px;
+    margin-top:20px;
     border-style: solid;
     border-width: 1px;
+    
 }
 
 .div-anuncio img{
@@ -81,7 +90,7 @@ hr{
     color:white;
     border:none;
     width:100%;
-    margin-top:40px;
+    margin-top:13px;
 }
 .btn-boletim:hover{
     background:#009999;
@@ -89,9 +98,11 @@ hr{
     border:none;
 }
 
+
 @media screen and (min-width: 992px){
     .div-noticia-outros{
         display:flex;
+       
     }
     .div-noticia{
         margin-top:20px;
@@ -109,14 +120,29 @@ hr{
     hr{
         width:56%;
     }
+    .caixa-dolar-cel{
+        display:none;
+    }
+    .caixa-dolar-pc{
+        display:block;
+    
+    }
     .div-anuncio{
         width:95%;
+        height:180px;
+        
     }
     .div-anuncio img{
-        width:100%;
+        width:cover;
+        margin-top:12%;
     }
     .btn-boletim{
-        width:80%;
+        width:90%;
+        
+    }
+    .outras-noticias-principais-cel{
+        width:100%;
+        margin-top:-50px;
     }
     
     
