@@ -13,6 +13,7 @@
         <?php include("componente/headGeral.php")?>
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/principaisNoticias.css"/>
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/principaisNoticias2.css"/>
+        <link type="text/css" rel="stylesheet" href="css/anuncio.css"/>
         <style>
             body{
                 font-family: 'Roboto', sans-serif;
@@ -27,6 +28,7 @@
         <?php include("componente/cabecalho.php")?>
         <?php include("componente/navbar.php")?>
         <?php include("componente/paginaInicial/principaisNoticias.php")?>
+        <?php include("componente/paginaInicial/anuncio.php")?>
 
     </body>
     
