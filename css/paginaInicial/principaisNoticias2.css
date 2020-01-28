@@ -1,10 +1,7 @@
-.caixa-dois{
-    display:flex;
-}
 .caixa-noticia-2{
    text-align:left;
    margin-top:50px;
-   width:50%;
+   width:100%;
    
 }
 
@@ -32,4 +29,18 @@
 .titulo-noticia-2:hover{
     color:#009999;
     
+}
+
+@media screen and (min-width: 992px){
+    .caixa-dois{
+        display:flex;
+    }
+    .caixa-noticia-2{
+        text-align:left;
+        margin-top:50px;
+        width:50%;
+        
+     }
+
+
 }

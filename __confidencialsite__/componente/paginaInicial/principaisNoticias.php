@@ -50,15 +50,14 @@
                 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
                     {
                     "symbol": "FX_IDC:USDBRL",
-                    "width": 280,
-                    "height": 180,
+                    
                     "locale": "br",
                     "dateRange": "1d",
                     "colorTheme": "light",
                     "trendLineColor": "#37a6ef",
                     "underLineColor": "#e3f2fd",
                     "isTransparent": false,
-                    "autosize": false,
+                    "autosize": true,
                     "largeChartUrl": ""
                     }
                 </script>
@@ -69,15 +68,14 @@
                 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
                     {
                     "symbol": "FX_IDC:USDBRL",
-                    "width": 390,
-                    "height": 180,
+                    
                     "locale": "br",
                     "dateRange": "1d",
                     "colorTheme": "light",
                     "trendLineColor": "#37a6ef",
                     "underLineColor": "#e3f2fd",
                     "isTransparent": false,
-                    "autosize": false,
+                    "autosize": true,
                     "largeChartUrl": ""
                     }
                 </script>
