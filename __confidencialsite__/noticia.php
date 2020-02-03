@@ -13,6 +13,8 @@ include("api/noticiasAleatorias.php");
         <?php include("componente/head.php")?>
         <link type="text/css" rel="stylesheet" href="../css/noticia/outrasNoticias.css"/>
         <link type="text/css" rel="stylesheet" href="../css/noticia/noticia.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/geral/cabecalho.css"/>
+
         <style>
             body{
                 font-family: 'Roboto', sans-serif;

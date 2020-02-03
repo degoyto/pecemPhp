@@ -46,7 +46,7 @@ hr{
 }
 /* titulo da noticia */
 .titulo-noticia{
-    font-size:24px;
+    font-size:20px;
     color:#212121;
     margin-top:-15px;
 }
@@ -56,7 +56,7 @@ hr{
 
 /* resumo da notícia (bigode) */
 .resumo-noticia{
-    font-size:16px;
+    font-size:14px;
     color:#212121;
     
 }
@@ -103,6 +103,15 @@ hr{
     .div-noticia-outros{
         display:flex;
        
+    }
+    .titulo-noticia{
+        font-size:24px;
+        
+    }
+    .resumo-noticia{
+        font-size:16px;
+       
+        
     }
     .div-noticia{
         margin-top:20px;

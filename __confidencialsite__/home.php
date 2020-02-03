@@ -1,5 +1,6 @@
 <?php 
     include("api/principaisNoticias.php");
+    include("api/novasNoticias.php");
 
 
 
@@ -11,9 +12,12 @@
 <html>
     <head>
         <?php include("componente/headGeral.php")?>
+        <link type="text/css" rel="stylesheet" href="css/geral/cabecalho.css"/>
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/principaisNoticias.css"/>
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/principaisNoticias2.css"/>
         <link type="text/css" rel="stylesheet" href="css/anuncio.css"/>
+        <link type="text/css" rel="stylesheet" href="css/paginaInicial/novasNoticias.css"/>
+        
         <style>
             body{
                 font-family: 'Roboto', sans-serif;
@@ -29,6 +33,7 @@
         <?php include("componente/navbar.php")?>
         <?php include("componente/paginaInicial/principaisNoticias.php")?>
         <?php include("componente/paginaInicial/anuncio.php")?>
+        <?php include("componente/paginaInicial/novaNoticias.php")?>
 
     </body>
     
