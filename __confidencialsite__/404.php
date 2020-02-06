@@ -10,16 +10,26 @@
 <html>
     <head>
         <?php include("componente/headGeral.php")?>
-        <link type="text/css" rel="stylesheet" href="../css/geral/cabecalho.css"/>
+        <link type="text/css" rel="stylesheet" href="css/geral/cabecalho.css"/>
+        <link type="text/css" rel="stylesheet" href="css/geral/rodape.css"/>
+        
 
     </head>
     <body>
         
         <?php include("componente/cabecalho.php")?>
         <?php include("componente/navbar.php")?>
+        
+
+
+        <div class="container nao-encontrado"> 
+            <img src="https://firebasestorage.googleapis.com/v0/b/jornal-porto-do-pecem.appspot.com/o/imagens%2F404.svg?alt=media&token=680c9fae-dfd1-4691-b38a-ca39512f3c0d"/>
+        </div>
+
+        <?php include("componente/rodape.php")?>
     </body>
     
-    Pagininha não encontrada
+    
     
 
 

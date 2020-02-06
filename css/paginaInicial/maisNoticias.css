@@ -1,0 +1,22 @@
+.mais-noticias{
+    margin-top: 50px;
+    
+}
+.btn-outras-noticias{
+    margin-top: 40px;
+}
+.btn-outras-noticias img{
+    width:100%;
+    margin-bottom: 20px;
+    margin-left:15px;
+}
+@media screen and (min-width: 992px){
+    .btn-outras-noticias{
+        display:flex;
+        
+    }
+    .btn-outras-noticias img{
+        width:95%;
+        
+    }
+}

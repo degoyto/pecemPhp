@@ -8,6 +8,7 @@
     $datatime->setTimeZone($novo);
     
     $output = $datatime->format("d/m/y H:i");
+    
 ?>
 
 <div class="container caixa">

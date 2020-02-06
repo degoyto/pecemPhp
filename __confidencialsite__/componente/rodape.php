@@ -2,7 +2,7 @@
 
 ?>
 <div class="container-flex">
-    <div class="div-anuncio">
+    <div class="div-anuncio-rodape">
         <a href="#">
             <img src="https://firebasestorage.googleapis.com/v0/b/jornal-porto-do-pecem.appspot.com/o/anuncio.jpg?alt=media&token=df4d99dd-84b5-4a9e-bda9-e15c12842135"/>
         </a>
@@ -43,82 +43,3 @@
     
 </div>
 
-<style>
-    .div-anuncio{
-        background:#009999;
-        text-align:center;
-        margin-bottom:20px;
-        height:120px;
-    }
-    .div-anuncio a img{
-        width:100%;
-        height:120px;
-    }
-    .itens{
-        display:none;
-        
-    }
-    .menu2{
-        text-align:center;
-    }
-    .itens ul{
-        list-style: none;
-        padding-top:20px;
-        
-    }
-    .itens ul li{
-        display: inline;
-    }
-    .itens ul li a {
-        text-transform: uppercase;
-        color:white;
-        
-        margin-left:10px;
-        font-size:11px;
-    }
-    .itens ul li a:hover {
-        
-        color:#009999;
-        text-decoration: none;
-        
-        
-    }
-    .rodape{
-        width:100%;
-        background-color:#142248;
-        color:white;
-        margin-bottom:-250px;
-    }
-    .menu-rodape {
-        padding:10px;
-        list-style: none;
-    }
-    .menu-rodape a{
-        color:white;
-
-    }
-    .menu-rodape a:hover{
-        color:#009999;
-        text-decoration: none;
-        
-    }
-  @media screen and (min-width: 992px){
-    .itens{
-      display:block;
-    }
-    .menu-rodape li{
-      display: inline;
-    }
-    .menu-rodape li a{
-      margin-left:20px;
-      
-      font-size:20px;
-    }
-    .div-anuncio a img{
-        width:50%;
-        height:120px;
-    }
-    
-
-  }
-</style>

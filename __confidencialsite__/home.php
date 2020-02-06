@@ -17,6 +17,8 @@
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/principaisNoticias2.css"/>
         <link type="text/css" rel="stylesheet" href="css/anuncio.css"/>
         <link type="text/css" rel="stylesheet" href="css/paginaInicial/novasNoticias.css"/>
+        <link type="text/css" rel="stylesheet" href="css/paginaInicial/maisNoticias.css"/>
+        <link type="text/css" rel="stylesheet" href="css/geral/rodape.css"/>
         
         <style>
             body{
@@ -34,6 +36,8 @@
         <?php include("componente/paginaInicial/principaisNoticias.php")?>
         <?php include("componente/paginaInicial/anuncio.php")?>
         <?php include("componente/paginaInicial/novaNoticias.php")?>
+        <?php include("componente/paginaInicial/maisNoticias.php")?>
+        <?php include("componente/rodape.php")?>
 
     </body>
     
