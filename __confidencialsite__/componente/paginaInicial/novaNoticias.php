@@ -123,11 +123,11 @@
                     <div class="img-anuncio-nova" style="background-image: url(https://firebasestorage.googleapis.com/v0/b/jornal-porto-do-pecem.appspot.com/o/ignis_1024.png?alt=media&token=212109ed-a7cd-47b5-89ad-0d28d0f894d2)"></div> 
                 </a>
             </div>
-            <div class="anuncio-noticia-nova">
+            <!-- <div class="anuncio-noticia-nova">
                 <img src="https://firebasestorage.googleapis.com/v0/b/jornal-porto-do-pecem.appspot.com/o/anuncio.jpg?alt=media&token=df4d99dd-84b5-4a9e-bda9-e15c12842135" 
                         class="img-anuncio-nova"/>
                 
-            </div>
+            </div> -->
         </div>
     </div><!-- final da div 'noticia-anuncio' -->
 </div>
