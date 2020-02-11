@@ -18,7 +18,13 @@
             require ('__confidencialsite__/404.php');
         }
         else{
-            require ('__confidencialsite__/'.$URL[0].".php");
+            if($URL[0]=="noticias" and $URL[1] == ""){
+                require ('__confidencialsite__/404.php');
+            }
+            else{
+                require ('__confidencialsite__/'.$URL[0].".php");
+            }
+            
         }
         
     }
