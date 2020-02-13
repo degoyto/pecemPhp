@@ -1,0 +1,8 @@
+.caixa-confirma{
+    display: none;
+    
+}
+.caixa-confirma-aparece{
+    display: block;
+    background:gray;
+}

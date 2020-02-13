@@ -1,15 +1,15 @@
 
 <div class="container">
     <h1>Adicionar Nova Notícia</h1>
-    <form method="POST" action="processa.php">
+    <form method="POST" action="processa"  enctype="multipart/form-data">
             <div class="form-group">
                 <label for="exampleInputEmail1">Título</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Título da Notícia">
+                <input type="text" name="titulo" class="form-control" placeholder="Título da Notícia" required>
                 
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1">Destacar na tela Inicial</label>
-                <select class="form-control" id="exampleFormControlSelect1" v-model="noticias.destaque" required>
+                <select name="destacar" class="form-control" id="exampleFormControlSelect1" required>
                         
                     <option value=false>Não</option> 
                     <option value=true>Sim</option> 
@@ -18,7 +18,7 @@
             </div>
             
         
-        <select class="form-control" id="exampleFormControlSelect1" required>
+        <select name="tipo" class="form-control" required>
             <label for="exampleInputPassword1">Tipo da noticia</label>
             <option value="" selected disabled hidden>Escolha o tipo da noticia</option>
             <option value="1">Artigos</option>
@@ -41,31 +41,44 @@
 
         <div class="form-group">
             <label for="exampleFormControlFile1">Escolha uma imagem</label>
-            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            <input name="imagem" type="file" class="form-control-file" id="foto" required>
+            <img id="imagem"/>
+            <button type="button"  class="btn btn-primary">Upload</button>
         </div>
 
+        <div class="form-group" style="display:none">
+                <label for="exampleInputEmail1">Link da imagem</label>
+                <input id="teste" name="link-image" type="text" class="form-control" >        
+        </div>
 
         <div class="form-group">
                 <label for="exampleInputEmail1">Legenda</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Legenda Foto">
+                <input type="text" name="legenda" class="form-control" placeholder="Legenda Foto">
                 
         </div>
         <div class="form-group">
                 <label for="exampleInputEmail1">Resumo</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Resumo">
+                <input type="text" name="resumo" class="form-control"  placeholder="Resumo">
                 
         </div>
         <div class="form-group">
                 <label for="exampleInputEmail1">Conteudo</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Conteudo">
+                <input type="text" name="conteudo" class="form-control"  placeholder="Conteudo" required>
                 
         </div>
         <div class="form-group">
                 <label for="exampleInputEmail1">Autor</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Autor">
+                <input type="text" name="autor" class="form-control"  placeholder="Autor" required>
                 
         </div>
-        <button type="submit" class="btn btn-primary">Adicionar</button>
 
+        
+        <button type="button" onclick="uploadImage()" class="btn btn-primary">Enviar</button>
+        <div class="caixa-confirma" id="caixa-confirma">
+            <p id="titulo-confirma">Aguarde</p>
+            <button id="btn-confirma" type="submit" class="btn btn-primary">Adicionar</button>
+        </div>
+        
+        
     </form>
 </div>
