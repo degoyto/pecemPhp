@@ -11,8 +11,8 @@
                 <label for="exampleInputPassword1">Destacar na tela Inicial</label>
                 <select name="destacar" class="form-control" id="exampleFormControlSelect1" required>
                         
-                    <option value=false>Não</option> 
-                    <option value=true>Sim</option> 
+                    <option value=0>Não</option> 
+                    <option value=1>Sim</option> 
                 
                 </select>
             </div>
@@ -43,7 +43,7 @@
             <label for="exampleFormControlFile1">Escolha uma imagem</label>
             <input name="imagem" type="file" class="form-control-file" id="foto" required>
             <img id="imagem"/>
-            <button type="button"  class="btn btn-primary">Upload</button>
+            
         </div>
 
         <div class="form-group" style="display:none">
