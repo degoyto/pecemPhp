@@ -6,7 +6,7 @@
     $linkImagem = filter_input(INPUT_POST, 'link-image', FILTER_SANITIZE_STRING);
     $legenda = filter_input(INPUT_POST, 'legenda', FILTER_SANITIZE_STRING);
     $resumo = filter_input(INPUT_POST, 'resumo', FILTER_SANITIZE_STRING);
-    $conteudo = filter_input(INPUT_POST, 'conteudo', FILTER_SANITIZE_STRING);
+    $conteudo = $_POST['conteudo'];
     $autor = filter_input(INPUT_POST, 'autor', FILTER_SANITIZE_STRING);
 
     echo $titulo."<br>";

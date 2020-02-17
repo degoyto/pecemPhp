@@ -13,8 +13,13 @@
         <div class="container div-noticia">
             <!-- Imagem da notícia principal -->
             <a class="link-noticia" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[0]['id'] ?>">
-                <div class="img-noticia" style="background-image: url(<?php echo $listaNoticia[0]['fotoUrl']?>)"></div> 
+                <div class="img-noticia" style="background-image: url('<?php echo $listaNoticia[0]['fotoUrl']?>)'"></div> 
             </a>
+            <!-- <a class="link-noticia" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[0]['id'] ?>">
+                <div class="img-noticia">
+                    <img src="<?php echo $listaNoticia[0]['fotoUrl']?>"/>
+                </div> 
+            </a> -->
             <!-- início da div com os dados da notícia -->
             <div class="div-info">
                 <a href="https://jornalportodopecem.com.br/#/noticias/<?php echo $listaNoticia[0]['tipo'] ?>">

@@ -15,7 +15,7 @@
                 <!-- Imagem da notícia principal -->
                 <div class="div-img-nova">
                     <a class="link-noticia-nova" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[0]['id'] ?>">
-                        <div class="img-noticia-nova" style="background-image: url(<?php echo $listaNovaNoticia[0]['fotoUrl']?>)"></div> 
+                        <div class="img-noticia-nova" style="background-image: url('<?php echo $listaNovaNoticia[0]['fotoUrl']?>')"></div> 
                     </a>
                 </div>
 
@@ -41,7 +41,7 @@
                 <!-- Imagem da notícia principal -->
                 <div class="div-img-nova">
                     <a class="link-noticia-nova" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[1]['id'] ?>">
-                        <div class="img-noticia-nova" style="background-image: url(<?php echo $listaNovaNoticia[1]['fotoUrl']?>)"></div> 
+                        <div class="img-noticia-nova" style="background-image: url('<?php echo $listaNovaNoticia[1]['fotoUrl']?>')"></div> 
                     </a>
                 </div>
 
@@ -67,7 +67,7 @@
                 <!-- Imagem da notícia principal -->
                 <div class="div-img-nova">
                     <a class="link-noticia-nova" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[2]['id'] ?>">
-                        <div class="img-noticia-nova" style="background-image: url(<?php echo $listaNovaNoticia[2]['fotoUrl']?>)"></div> 
+                        <div class="img-noticia-nova" style="background-image: url('<?php echo $listaNovaNoticia[2]['fotoUrl']?>')"></div> 
                     </a>
                 </div>
 
@@ -93,7 +93,7 @@
                 <!-- Imagem da notícia principal -->
                 <div class="div-img-nova">
                     <a class="link-noticia-nova" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[3]['id'] ?>">
-                        <div class="img-noticia-nova" style="background-image: url(<?php echo $listaNovaNoticia[3]['fotoUrl']?>)"></div> 
+                        <div class="img-noticia-nova" style="background-image: url('<?php echo $listaNovaNoticia[3]['fotoUrl']?>')"></div> 
                     </a>
                 </div>
 

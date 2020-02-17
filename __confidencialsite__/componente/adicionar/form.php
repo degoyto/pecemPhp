@@ -1,7 +1,7 @@
 
 <div class="container">
     <h1>Adicionar Nova Notícia</h1>
-    <form method="POST" action="processa"  enctype="multipart/form-data">
+    <form method="POST" action="processa"  enctype="multipart/form-data" id="form-noticia">
             <div class="form-group">
                 <label for="exampleInputEmail1">Título</label>
                 <input type="text" name="titulo" class="form-control" placeholder="Título da Notícia" required>
@@ -17,8 +17,8 @@
                 </select>
             </div>
             
-        
-        <select name="tipo" class="form-control" required>
+            <label for="exampleInputPassword1">Tipo de Notícia</label>
+        <select name="tipo" class="form-control" required style="margin-bottom:20px">
             <label for="exampleInputPassword1">Tipo da noticia</label>
             <option value="" selected disabled hidden>Escolha o tipo da noticia</option>
             <option value="1">Artigos</option>
@@ -61,24 +61,32 @@
                 <input type="text" name="resumo" class="form-control"  placeholder="Resumo">
                 
         </div>
-        <div class="form-group">
-                <label for="exampleInputEmail1">Conteudo</label>
-                <input type="text" name="conteudo" class="form-control"  placeholder="Conteudo" required>
-                
-        </div>
+       
         <div class="form-group">
                 <label for="exampleInputEmail1">Autor</label>
                 <input type="text" name="autor" class="form-control"  placeholder="Autor" required>
                 
         </div>
+        <div class="form-group">
+                <label for="exampleInputEmail1">Conteudo</label>
+                <textarea name="conteudo" id="summernote"></textarea>
+                </textarea>
+        </div>
 
         
         <button type="button" onclick="uploadImage()" class="btn btn-primary">Enviar</button>
-        <div class="caixa-confirma" id="caixa-confirma">
-            <p id="titulo-confirma">Aguarde</p>
-            <button id="btn-confirma" type="submit" class="btn btn-primary">Adicionar</button>
+
+        <div class="caixa-confirma-aparece" id="caixa-confirma">
+            <div class="container quadro-escolha" style="width:320px">
+                <img class='img-aguarde' src="https://lh3.googleusercontent.com/proxy/Mx34DjCzSKkVDz83UVrxsejaXE6aJ5C4hjajENpls4ijPD4bBcAlgSolCenSF1_AHt9FcDHPAD44ul1UkCvJd8VsgnXPpUQXHZHMmE2vMfHq0CPjHG5DjI0TtGc"/>
+                <button id="btn-confirma" type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+            
         </div>
         
         
     </form>
+    
+    
+    
 </div>
