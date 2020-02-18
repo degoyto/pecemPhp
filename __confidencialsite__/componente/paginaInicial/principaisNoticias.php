@@ -13,7 +13,7 @@
         <div class="container div-noticia">
             <!-- Imagem da notícia principal -->
             <a class="link-noticia" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[0]['id'] ?>">
-                <div class="img-noticia" style="background-image: url('<?php echo $listaNoticia[0]['fotoUrl']?>)'"></div> 
+                <div class="img-noticia" style="background-image: url('<?php echo $listaNoticia[0]['fotoUrl']?>')"></div> 
             </a>
             <!-- <a class="link-noticia" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[0]['id'] ?>">
                 <div class="img-noticia">

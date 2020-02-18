@@ -1,4 +1,5 @@
 <?php 
+    include("__confidencialsite__/api/converteNome.php");
 
     $REQUEST_URI = filter_input(INPUT_SERVER, 'REQUEST_URI');
     $INITE = strpos($REQUEST_URI, "?");
@@ -14,17 +15,27 @@
     
 
     if(file_exists('__confidencialsite__/'.$URL[0].".php")){
-        if($URL[0]=="noticia" and $URL[1] == ""){
+        if(count($URL) == 1){
+            $URL[1] = 0;
+        }
+        
+        
+        if($URL[0]=="noticia" and $URL[1] == 0){
             require ('__confidencialsite__/404.php');
         }
+        
         else{
-            if($URL[0]=="noticias" and $URL[1] == ""){
-                require ('__confidencialsite__/404.php');
-            }
-            else{
-                require ('__confidencialsite__/'.$URL[0].".php");
+            if ($URL[0] === "noticias" and is_string($URL[1]) ){
+                
+                $URL[1] = encontraPalavra($URL[1], $listaPalavras);
+                if ($URL[1] === -1){
+                    header("Location: http://localhost/pecemphp/noticias");
+                }
             }
             
+            
+
+            require ('__confidencialsite__/'.$URL[0].".php");
         }
         
     }

@@ -19,16 +19,19 @@
             <div class="div-noticias"> 
                 <h1 >
                     <?php 
-                        echo $URL[1];
+                        echo $listaPalavrasConvertidas[($URL[1])];
                     ?>
                 </h1>
                 <?php 
                     while ($exibe_news = mysqli_fetch_assoc($resultado_noticia) ){
                         echo "<div class='container cada-noticia'>
-                            <div class='img-lista-news' style='background-image: url(" .$exibe_news['fotoUrl']. ");'></div>
+                            <div class='img-lista-news'>
+                                <img src='".$exibe_news['fotoUrl']."'/>
+                            </div>
                             <div class='news-info'>
                                 <a href='https://jornalportodopecem.com.br/#/noticias/".$exibe_news['tipo']."'>" 
-                                    .$exibe_news['tipo'].
+                                    .$listaPalavrasConvertidas[($exibe_news['tipo'])]
+                                    .
                                 "</a>
                                 <h1>"
                                     .$exibe_news['title'].

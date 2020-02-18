@@ -1,44 +1,9 @@
 
-<div class="container">
+<div class="container formulario">
     <h1>Adicionar Nova Notícia</h1>
     <form method="POST" action="processa"  enctype="multipart/form-data" id="form-noticia">
-            <div class="form-group">
-                <label for="exampleInputEmail1">Título</label>
-                <input type="text" name="titulo" class="form-control" placeholder="Título da Notícia" required>
-                
-            </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1">Destacar na tela Inicial</label>
-                <select name="destacar" class="form-control" id="exampleFormControlSelect1" required>
-                        
-                    <option value=0>Não</option> 
-                    <option value=1>Sim</option> 
-                
-                </select>
-            </div>
             
-            <label for="exampleInputPassword1">Tipo de Notícia</label>
-        <select name="tipo" class="form-control" required style="margin-bottom:20px">
-            <label for="exampleInputPassword1">Tipo da noticia</label>
-            <option value="" selected disabled hidden>Escolha o tipo da noticia</option>
-            <option value="1">Artigos</option>
-            <option value="2">Boletim Portuário</option>
-            <option value="3">Caucaia/São Gonçalo</option>
-            <option value="4" >Comércio Exterior</option>
-            <option value="5">Complexo Portuário</option>
-            <option value="6">Destaques Portuários</option> 
-            <!-- <option value="direito">Direito Aduaneiro</option> -->
-            <option value="7">Entrevistas</option> 
-            <option value="8">Eventos</option>
-            <option value="9">Logística e Transporte</option>
-            <!-- <option value="marketing">Marketing Portuário</option> -->
-            <option value="10" >Notícia Internacional</option>
-            <option value="11">Notícia Nacional</option> 
-            <option value="12" >Portos do Brasil</option>
-            <option value="13">Porto e Turismo</option> 
-            
-        </select>
-
+        <h2>Imagem da Notícia</h2>
         <div class="form-group">
             <label for="exampleFormControlFile1">Escolha uma imagem</label>
             <input name="imagem" type="file" class="form-control-file" id="foto" required>
@@ -56,9 +21,52 @@
                 <input type="text" name="legenda" class="form-control" placeholder="Legenda Foto">
                 
         </div>
+
+
+
+        <h2>Dados da Notícia</h2>
+        <div class="form-group">
+                <label for="exampleInputEmail1">Título</label>
+                <input type="text" name="titulo" class="form-control" placeholder="Título da Notícia" required>
+                
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Destacar na tela Inicial</label>
+            <select name="destacar" class="form-control" id="exampleFormControlSelect1" required>
+                    
+                <option value=0>Não</option> 
+                <option value=1>Sim</option> 
+            
+            </select>
+        </div>
+        
+        <label for="exampleInputPassword1">Tipo de Notícia</label>
+        <select name="tipo" class="form-control" required style="margin-bottom:20px">
+            <label for="exampleInputPassword1">Tipo da noticia</label>
+            <option value="" selected disabled hidden>Escolha o tipo da noticia</option>
+            <option value="1">Artigos</option>
+            <option value="2">Boletim Portuário</option>
+            <option value="3">Caucaia</option>
+            <option value="4" >Comércio Exterior</option>
+            <option value="5">Complexo Portuário</option>
+            <option value="6">Destaques Portuários</option> 
+            <!-- <option value="direito">Direito Aduaneiro</option> -->
+            <option value="7">Entrevistas</option> 
+            <option value="8">Eventos</option>
+            <option value="9">Logística e Transporte</option>
+            <!-- <option value="marketing">Marketing Portuário</option> -->
+            <option value="10" >Notícia Internacional</option>
+            <option value="11">Notícia Nacional</option> 
+            <option value="12" >Portos do Brasil</option>
+            <option value="13">Porto e Turismo</option> 
+            <option value="14">São Gonçalo</option>
+            
+        </select>
+
+
         <div class="form-group">
                 <label for="exampleInputEmail1">Resumo</label>
-                <input type="text" name="resumo" class="form-control"  placeholder="Resumo">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="resumo"></textarea>
                 
         </div>
        
@@ -68,18 +76,19 @@
                 
         </div>
         <div class="form-group">
-                <label for="exampleInputEmail1">Conteudo</label>
+                <label for="exampleInputEmail1">Conteúdo</label>
                 <textarea name="conteudo" id="summernote"></textarea>
                 </textarea>
         </div>
 
         
-        <button type="button" onclick="uploadImage()" class="btn btn-primary">Enviar</button>
+        <button type="button" onclick="uploadImage()" class="btn btn-primary botao-up">Enviar</button>
 
-        <div class="caixa-confirma-aparece" id="caixa-confirma">
+        <div class="caixa-confirma-aparece desativado" id="caixa-confirma">
             <div class="container quadro-escolha" style="width:320px">
-                <img class='img-aguarde' src="https://lh3.googleusercontent.com/proxy/Mx34DjCzSKkVDz83UVrxsejaXE6aJ5C4hjajENpls4ijPD4bBcAlgSolCenSF1_AHt9FcDHPAD44ul1UkCvJd8VsgnXPpUQXHZHMmE2vMfHq0CPjHG5DjI0TtGc"/>
-                <button id="btn-confirma" type="submit" class="btn btn-primary">Enviar</button>
+                <img id='img-processando' class='img-processando ativo' src="https://firebasestorage.googleapis.com/v0/b/jornal-porto-do-pecem.appspot.com/o/processando.gif?alt=media&token=c025e6f2-b548-4309-9779-0083b785db58"/>
+                <img id='img-concluido' class='img-concluido desativado' src="https://firebasestorage.googleapis.com/v0/b/jornal-porto-do-pecem.appspot.com/o/source.gif?alt=media&token=092cd258-d37c-4b4d-a22a-ab0ff15ee0d6"/>
+                <button id="btn-confirma" type="submit" class="btn btn-primary botao-enviar  desativado">Confirmar</button>
             </div>
             
         </div>

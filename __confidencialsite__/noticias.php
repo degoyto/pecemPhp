@@ -1,6 +1,6 @@
 <?php 
     include("api/paginacao.php");
-
+    
 
 
 
@@ -14,6 +14,10 @@
         <link type="text/css" rel="stylesheet" href="../css/geral/cabecalho.css"/>
         <link type="text/css" rel="stylesheet" href="../css/geral/rodape.css"/>
         <link type="text/css" rel="stylesheet" href="../css/listaNoticia/listaNoticia.css"/>
+
+        <link type="text/css" rel="stylesheet" href="css/geral/cabecalho.css"/>
+        <link type="text/css" rel="stylesheet" href="css/geral/rodape.css"/>
+        <link type="text/css" rel="stylesheet" href="css/listaNoticia/listaNoticia.css"/>
 
         <style>
             body{

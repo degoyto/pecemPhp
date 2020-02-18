@@ -19,14 +19,21 @@
     height: 50vh;
     min-height:160px;
     max-height:320px;
-    background-size: cover;
+    /* background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     border-radius: 7px;
+}
+.img-lista-news img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    
 }
 .news-info{
     width: 100%;
     margin-top: 7px;
+
     
 }
 .news-info h1{
