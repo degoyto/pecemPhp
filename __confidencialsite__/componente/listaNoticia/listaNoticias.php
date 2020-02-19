@@ -29,7 +29,7 @@
                                 <img src='".$exibe_news['fotoUrl']."'/>
                             </div>
                             <div class='news-info'>
-                                <a href='https://jornalportodopecem.com.br/#/noticias/".$exibe_news['tipo']."'>" 
+                                <a href='/pecemphp/noticias/".$listaPalavras[($exibe_news['tipo'])]."'>" 
                                     .$listaPalavrasConvertidas[($exibe_news['tipo'])]
                                     .
                                 "</a>

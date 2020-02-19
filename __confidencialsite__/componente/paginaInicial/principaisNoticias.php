@@ -91,8 +91,8 @@
                     <img src="https://imagensportopecem2.s3.amazonaws.com/anuncios/rodo.jpg" class="anuncio">
                 </a>
             </div>
-            <button type="button" class="btn btn-primary btn-boletim">BOLETIM PORTUÁRIO</button>
-            <button type="button" class="btn btn-primary btn-boletim">CLASSIFICADOS</button>
+            <button type="button" class="btn btn-primary btn-boletim" onclick="window.location.href = 'noticias/boletim-portuario'">BOLETIM PORTUÁRIO</button>
+            <!-- <button type="button" class="btn btn-primary btn-boletim">CLASSIFICADOS</button> -->
             <!-- TradingView Widget END -->
         </div>
     </div>

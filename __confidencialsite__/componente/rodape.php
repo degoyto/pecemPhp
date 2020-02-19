@@ -10,16 +10,20 @@
     <div class="rodape">
         <div class="container itens">
             <ul>
-                <li><a href="https://jornalportodopecem.com.br/#/noticias/destaques" >destaques portuários</a></li>
-                <li><a href="https://jornalportodopecem.com.br/#/noticias/nacionais">Nacionais</a></li>
-                <li><a href="https://jornalportodopecem.com.br/#/noticias/internacionais" >Internacionais</a></li>
-                <li><a href="https://jornalportodopecem.com.br/#/noticias/artigos" >Artigos e Opinião</a></li>
-                <li><a href="https://jornalportodopecem.com.br/#/noticias/turismo" > turismo</a></li>
-                <li><a href="https://jornalportodopecem.com.br/#/noticias/comex" >Comércio exterior</a></li>
-                <li><a href="https://jornalportodopecem.com.br/#/noticias/logistica">logística e transporte</a></li>
-                <li><a href="https://jornalportodopecem.com.br/#/noticias/entrevistas" >entrevistas</a></li> 
-                <li><a href="https://jornalportodopecem.com.br/#/noticias/portos" >Portos do Brasil</a></li>
-                <li><a href="https://jornalportodopecem.com.br/#/noticias/eventos" >Eventos</a></li>
+                <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(6)]?>" >destaques portuários</a></li>
+                <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(11)]?>" >Nacionais</a></li>
+                        
+                <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(12)]?>"  >Internacionais</a></li>
+                
+                <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(1)]?>"  >Artigos e Opinião</a></li>
+                
+                <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(13)]?>"  > turismo</a></li>
+
+                <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(4)]?>"  >Comércio exterior</a></li>
+                <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(9)]?>" >logística e transporte</a></li>
+                <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(7)]?>"  >entrevistas</a></li> 
+                <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(12)]?>"  >Portos do Brasil</a></li>
+                <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(8)]?>"  >Eventos</a></li>
             </ul>
         </div>
         <div class="container menu2">

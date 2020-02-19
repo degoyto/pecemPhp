@@ -15,7 +15,7 @@
                            12 => "portos-brasil",
                            13 => "porto-turismo",
                            14 => "sao-goncalo",
-                           15 => "noticias"
+                           15 => "noticia"
                         );
     $listaPalavrasConvertidas = array(
                             1 => "Artigos", 

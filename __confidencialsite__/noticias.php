@@ -10,7 +10,7 @@
 <html>
     <head>
         <?php include("componente/headGeral.php")?>
-        <title>Jornal Porto do Pecém - <?php echo $URL[1]?> </title>
+        <title>Jornal Porto do Pecém - <?php echo $listaPalavrasConvertidas[($URL[1])]?> </title>
         <link type="text/css" rel="stylesheet" href="../css/geral/cabecalho.css"/>
         <link type="text/css" rel="stylesheet" href="../css/geral/rodape.css"/>
         <link type="text/css" rel="stylesheet" href="../css/listaNoticia/listaNoticia.css"/>
@@ -32,7 +32,7 @@
         <?php include("componente/cabecalho.php")?>
         <?php include("componente/navbar.php")?>   
         <?php include("componente/listaNoticia/listaNoticias.php")?>   
-        <?php //include("componente/rodape.php")?>
+        <?php include("componente/rodape.php")?>
         
         
         
