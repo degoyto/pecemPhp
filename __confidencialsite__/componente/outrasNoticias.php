@@ -18,7 +18,9 @@
             <div class="noticia-lista">
                 <div class="imagem-lista" style="background-image: url(<?php echo $n1['fotoUrl']?>)"></div>
                 <div class="info">
-                    <p class="tipo-lista"><?php echo $n1["tipo"]?></p>
+                    <a href="/pecemphp/noticias/<?php echo $listaPalavras[($n1['tipo'])]?>">
+                        <p class="tipo-lista"><?php echo $listaPalavrasConvertidas[($n1["tipo"])]?></p>
+                    </a>
                     <a href="https://jornalportodopecem.com.br/noticia/<?php echo $n1['id'];?>"> 
                         <p class="titulo-lista"><?php echo $n1["title"]?></p>
                     </a>
@@ -31,7 +33,9 @@
             <div class="noticia-lista">
                 <div class="imagem-lista" style="background-image: url(<?php echo $n2['fotoUrl']?>)"></div>
                 <div class="info">
-                    <p class="tipo-lista"><?php echo $n2["tipo"]?></p>
+                    <a href="/pecemphp/noticias/<?php echo $listaPalavras[($n2['tipo'])]?>">
+                        <p class="tipo-lista"><?php echo $listaPalavrasConvertidas[($n2["tipo"])]?></p>
+                    </a>
                     <a href="https://jornalportodopecem.com.br/noticia/<?php echo $n2['id'];?>">
                         <p class="titulo-lista"><?php echo $n2["title"]?></p>
                     </a>
@@ -41,7 +45,9 @@
             <div class="noticia-lista">
                 <div class="imagem-lista" style="background-image: url(<?php echo $n3['fotoUrl']?>)"></div>
                 <div class="info">
-                    <p class="tipo-lista"><?php echo $n3["tipo"]?></p>
+                    <a href="/pecemphp/noticias/<?php echo $listaPalavras[($n3['tipo'])]?>">
+                        <p class="tipo-lista"><?php echo $listaPalavrasConvertidas[($n3["tipo"])]?></p>
+                    </a>
                     <a href="https://jornalportodopecem.com.br/noticia/<?php echo $n3['id'];?>"> 
                         <p class="titulo-lista"><?php echo $n3["title"]?></p>
                     </a> 
@@ -53,8 +59,10 @@
             <div class="noticia-lista">
                 <div class="imagem-lista" style="background-image: url(<?php echo $n4['fotoUrl']?>)"></div>
                 <div class="info">
-                    <p class="tipo-lista"><?php echo $n4["tipo"]?></p>
-                    <a href="https://jornalportodopecem.com.br/noticia/<?php echo $n4['id'];?>">
+                    <a href="/pecemphp/noticias/<?php echo $listaPalavras[($n4['tipo'])]?>">
+                        <p class="tipo-lista"><?php echo $listaPalavrasConvertidas[($n4["tipo"])]?></p>
+                    </a>
+                    <a href="/pecemphp/noticia/<?php echo $n4['id'];?>">
                         <p class="titulo-lista"><?php echo $n4["title"]?></p>
                     </a>
                 </div>

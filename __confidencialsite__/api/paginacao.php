@@ -11,20 +11,20 @@
 
     $inicio = ($itens_por_pagina * $pagina) - $itens_por_pagina;
     if ($URL[1] === 0){
-        $resultado_noticia = mysqli_query($connect, "SELECT * FROM Noticia limit $inicio, $itens_por_pagina");
+        $resultado_noticia = mysqli_query($connect, "SELECT * FROM Noticia ORDER BY createdAt desc limit $inicio, $itens_por_pagina");
         $total_consult = mysqli_query($connect, "SELECT COUNT(id) as num_total from Noticia");
         $row_pg = mysqli_fetch_assoc($total_consult);
         // echo $row_pg['num_total'];
     }
     elseif ($URL[1] === 15){
-        $resultado_noticia = mysqli_query($connect, "SELECT * FROM Noticia  where tipo = 10 or tipo = 11 limit $inicio, $itens_por_pagina");
+        $resultado_noticia = mysqli_query($connect, "SELECT * FROM Noticia  where tipo = 10 or tipo = 11 ORDER BY createdAt desc limit $inicio, $itens_por_pagina");
         $total_consult = mysqli_query($connect, "SELECT COUNT(id) as num_total from Noticia where tipo = 10 or tipo = 11");
         $row_pg = mysqli_fetch_assoc($total_consult);
         // echo $row_pg['num_total'];
         
     }
     else {
-        $resultado_noticia = mysqli_query($connect, "SELECT * FROM Noticia  where tipo = $URL[1] limit $inicio, $itens_por_pagina");
+        $resultado_noticia = mysqli_query($connect, "SELECT * FROM Noticia  where tipo = $URL[1] ORDER BY createdAt desc limit $inicio, $itens_por_pagina");
         $total_consult = mysqli_query($connect, "SELECT COUNT(id) as num_total from Noticia  where tipo = $URL[1]");
         $row_pg = mysqli_fetch_assoc($total_consult);
         // echo $row_pg['num_total'];

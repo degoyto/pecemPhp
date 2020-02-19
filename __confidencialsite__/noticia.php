@@ -15,6 +15,7 @@ include("api/noticiasAleatorias.php");
         <link type="text/css" rel="stylesheet" href="../css/noticia/noticia.css"/>
         <link type="text/css" rel="stylesheet" href="../css/geral/cabecalho.css"/>
         <link type="text/css" rel="stylesheet" href="../css/geral/rodape.css"/>
+        <link type="text/css" rel="stylesheet" href="../css/listaNoticia/listaNoticia.css"/>
 
         <style>
             body{

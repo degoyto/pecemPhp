@@ -13,7 +13,7 @@
 
 <div class="container caixa">
     <div class="container noticia">
-        <p class="tipo"><?php echo $exibe['tipo']; ?></p>
+        <p class="tipo"><?php echo $listaPalavrasConvertidas[($exibe['tipo'])]; ?></p>
         <h1 class="titulo"><?php echo $exibe['title']; ?></h1>
         <p class="resumo"><?php echo $exibe['resumo']; ?> </p>
         <p class="autor">Por <?php echo $exibe['autor']; ?> </p>

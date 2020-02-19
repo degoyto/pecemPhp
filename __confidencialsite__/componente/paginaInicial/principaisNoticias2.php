@@ -7,9 +7,9 @@
 <div class="container caixa-dois">
     <!-- informações da notícia -->
     <div class="caixa-noticia-2 container">
-        <a href="https://jornalportodopecem.com.br/#/noticias/<?php echo $listaNoticia[1]['tipo'] ?>">
+        <a href="noticias/<?php echo $listaPalavras[($listaNoticia[1]['tipo'])] ?>">
             <p class="tipo-noticia-2">
-                <?php echo $listaNoticia[1]["tipo"]?>
+                <?php echo $listaPalavrasConvertidas[($listaNoticia[1]["tipo"])]?>
             </p>
         </a>
         <a class="link-noticia" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[1]['id'] ?>">
@@ -20,9 +20,9 @@
         </a>
     </div>
     <div class="caixa-noticia-2 container">
-        <a href="https://jornalportodopecem.com.br/#/noticias/<?php echo $listaNoticia[2]['tipo'] ?>">
+        <a href="noticias/<?php echo $listaPalavras[($listaNoticia[2]['tipo'])] ?>">
             <p class="tipo-noticia-2">
-                <?php echo $listaNoticia[2]["tipo"]?>
+                <?php echo $listaPalavrasConvertidas[($listaNoticia[2]["tipo"])]?>
             </p>
         </a>
         <a class="link-noticia" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[2]['id'] ?>">
@@ -36,9 +36,9 @@
 
 
     <div class="caixa-noticia-2 container">
-        <a href="https://jornalportodopecem.com.br/#/noticias/<?php echo $listaNoticia[3]['tipo'] ?>">
+        <a href="noticias/<?php echo $listaPalavras[($listaNoticia[3]['tipo'])] ?>">
             <p class="tipo-noticia-2">
-                <?php echo $listaNoticia[3]["tipo"]?>
+                <?php echo $listaPalavrasConvertidas[($listaNoticia[3]["tipo"])]?>
             </p>
         </a>
         <a class="link-noticia" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[3]['id'] ?>">
@@ -51,9 +51,9 @@
     </div>
 
     <div class="caixa-noticia-2 container">
-        <a href="https://jornalportodopecem.com.br/#/noticias/<?php echo $listaNoticia[4]['tipo'] ?>">
+        <a href="noticias/<?php echo $listaPalavras[($listaNoticia[4]['tipo'])] ?>">
             <p class="tipo-noticia-2">
-                <?php echo $listaNoticia[4]["tipo"]?>
+                <?php echo $listaPalavrasConvertidas[($listaNoticia[4]["tipo"])]?>
             </p>
         </a>
         <a class="link-noticia" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[4]['id'] ?>">

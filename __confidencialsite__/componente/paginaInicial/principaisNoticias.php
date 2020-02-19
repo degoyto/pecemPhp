@@ -22,9 +22,9 @@
             </a> -->
             <!-- início da div com os dados da notícia -->
             <div class="div-info">
-                <a href="https://jornalportodopecem.com.br/#/noticias/<?php echo $listaNoticia[0]['tipo'] ?>">
+                <a href="noticias/<?php echo $listaPalavras[($listaNoticia[0]['tipo'])] ?>">
                     <p class="tipo-noticia">
-                        <?php echo $listaNoticia[0]["tipo"]?>
+                        <?php echo $listaPalavrasConvertidas[($listaNoticia[0]["tipo"])]?>
                     </p>
                 </a>
                 <a class="link-noticia" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[0]['id'] ?>">
