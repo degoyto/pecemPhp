@@ -28,6 +28,7 @@
             if ($URL[0] === "noticias" and is_string($URL[1]) ){
                 
                 $URL[1] = encontraPalavra($URL[1], $listaPalavras);
+                
                 if ($URL[1] === -1){
                     header("Location: http://localhost/pecemphp/noticias");
                 }

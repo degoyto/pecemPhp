@@ -1,6 +1,7 @@
 <?php
 
     $listaPalavras = array(
+                           0 => "todas-noticias",
                            1 => "artigos", 
                            2 => "boletim-portuario",
                            3 => "caucaia",
@@ -18,6 +19,7 @@
                            15 => "noticia"
                         );
     $listaPalavrasConvertidas = array(
+                            0 => "Todas as Notícias",
                             1 => "Artigos", 
                             2 => "Boletim portuário",
                             3 => "Notícias de Caucaia",

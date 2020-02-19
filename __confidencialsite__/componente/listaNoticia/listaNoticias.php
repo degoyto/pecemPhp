@@ -44,6 +44,31 @@
                         </div>";
                     }
                     
+                    if ($URL[1] == 0){
+                        echo "<a href='/pecemphp/noticias'> Página Inicial</a>";
+                        for ($pag_ant = $pagina - $max_link; $pag_ant <=$pagina -1; $pag_ant++){
+                            if ($pag_ant >= 1){
+                                echo "<a href='/pecemphp/noticias?pagina=$pag_ant'>$pag_ant</a>";
+
+                            }
+                        }
+
+                        echo $pagina;
+
+                        for ($pag_dps = $pagina + 1; $pag_dps <= $pagina + $max_link ; $pag_dps++){
+                            if ($pag_dps <= $qnt_pag){
+                                echo "<a href='/pecemphp/noticias?pagina=$pag_dps'>$pag_dps</a>";
+
+                            }
+                        }
+                        echo "<a href='/pecemphp/noticias?pagina=$qnt_pag'>Última Página</a>";
+                    }
+                    else{
+                        echo "<a href='/pecemphp/noticias/".$listaPalavras[($URL[1])]."'>Página Inicial</a>";
+                        echo "<a href='/pecemphp/noticias/".$listaPalavras[($URL[1])]."?pagina=$qnt_pag'>Última Página</a>";
+                    }
+                    
+                    
                 
                 
                 ?>
