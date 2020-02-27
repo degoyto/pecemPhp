@@ -26,8 +26,8 @@
                     $intervalo = 0; 
                     while ($exibe_news = mysqli_fetch_assoc($resultado_noticia) ){
                         echo "<div class='container cada-noticia'>
-                            <div class='img-lista-news'>
-                                <img src='".$exibe_news['fotoUrl']."'/>
+                            <div class='img-lista-news'><a class='tipo-lista' href='/pecemphp/noticia/".$exibe_news['id']."'>
+                                <img src='".$exibe_news['fotoUrl']."'/></a>
                             </div>
                             <div class='news-info'>
                                 <a class='tipo-lista' href='/pecemphp/noticias/".$listaPalavras[($exibe_news['tipo'])]."'>" 

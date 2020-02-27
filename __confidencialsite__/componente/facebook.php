@@ -22,14 +22,14 @@
 <div class="container">
     <div class="container caixa-face">
         <div class="fb-like" 
-            data-href="https://developers.facebook.com/docs/plugins/" 
+            data-href="http://testejornal.tk/noticia/<?php echo $id ?>/" 
             data-width="" data-layout="standard" data-action="like" 
             data-size="large" 
             data-share="true">
         </div>
         
         <div class="fb-comments comentario" 
-            data-href="https://developers.facebook.com/docs/plugins/comments#configurator" 
+            data-href="http://testejornal.tk/noticia/<?php echo $id ?>/" 
             data-width="" data-numposts="5">
         </div>
 

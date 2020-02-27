@@ -1,5 +1,5 @@
 <?php
-    setlocale(LC_ALL, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
+    
 
 ?>
 
@@ -7,7 +7,8 @@
     <div class="container cabecalho">
         <div class="data-rede">
             <p class="datap">
-                Pecém,<?php echo ucfirst( utf8_encode( strftime(" %d" ) ) ); ?> de
+                Pecém,<?php  setlocale(LC_ALL, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese'); 
+                echo ucfirst( utf8_encode( strftime(" %d" ) ) ); ?> de
                     <span><?php echo ucfirst( utf8_encode( strftime(" %B " ) ) ); ?></span>de
                     <?php echo ucfirst( utf8_encode( strftime(" %Y" ) ) ); ?>
 

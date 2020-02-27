@@ -17,10 +17,11 @@
     echo $resumo."<br>";
     echo $conteudo."<br>";
     echo $autor."<br>";
-
+    mysqli_set_charset($connect,"utf8");
     $sql = "INSERT INTO Noticia (title, conteudo, resumo, fotoUrl, legenda, autor, destaque, tipo, createdAt, updatedAt) VALUES ('$titulo','$conteudo','$resumo', '$linkImagem','$legenda','$autor','$destacar', '$tipo', NOW(), NOW())";
     if (mysqli_query($connect, $sql)) {
         echo "New record created successfully";
+        header("Location: http://testejornal.tk/add");
     } else {
         echo "Error: " . $sql . "<br>" . mysqli_error($connect);
     }
