@@ -14,7 +14,7 @@
             <div class="noticia-nova">
                 <!-- Imagem da notícia principal -->
                 <div class="div-img-nova">
-                    <a class="link-noticia-nova" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[0]['id'] ?>">
+                    <a class="link-noticia-nova" href="/noticia/<?php echo $listaNoticia[0]['id'] ?>">
                         <div class="img-noticia-nova" style="background-image: url('<?php echo $listaNovaNoticia[0]['fotoUrl']?>')"></div> 
                     </a>
                 </div>
@@ -26,7 +26,7 @@
                             <?php echo $listaPalavrasConvertidas[( $listaNovaNoticia[0]["tipo"])]?>
                         </p>
                     </a>
-                    <a class="link-noticia-nova" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNovaNoticia[0]['id'] ?>">
+                    <a class="link-noticia-nova" href="/noticia/<?php echo $listaNovaNoticia[0]['id'] ?>">
                         <p class="titulo-noticia-nova">
                             <?php echo $listaNovaNoticia[0]["title"]?>
                         </p>
@@ -40,7 +40,7 @@
             <div class="noticia-nova">
                 <!-- Imagem da notícia principal -->
                 <div class="div-img-nova">
-                    <a class="link-noticia-nova" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[1]['id'] ?>">
+                    <a class="link-noticia-nova" href="/noticia/<?php echo $listaNoticia[1]['id'] ?>">
                         <div class="img-noticia-nova" style="background-image: url('<?php echo $listaNovaNoticia[1]['fotoUrl']?>')"></div> 
                     </a>
                 </div>
@@ -52,7 +52,7 @@
                             <?php echo $listaPalavrasConvertidas[($listaNovaNoticia[1]["tipo"])]?>
                         </p>
                     </a>
-                    <a class="link-noticia-nova" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNovaNoticia[1]['id'] ?>">
+                    <a class="link-noticia-nova" href="/noticia/<?php echo $listaNovaNoticia[1]['id'] ?>">
                         <p class="titulo-noticia-nova">
                             <?php echo $listaNovaNoticia[1]["title"]?>
                         </p>
@@ -66,7 +66,7 @@
             <div class="noticia-nova">
                 <!-- Imagem da notícia principal -->
                 <div class="div-img-nova">
-                    <a class="link-noticia-nova" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[2]['id'] ?>">
+                    <a class="link-noticia-nova" href="/noticia/<?php echo $listaNoticia[2]['id'] ?>">
                         <div class="img-noticia-nova" style="background-image: url('<?php echo $listaNovaNoticia[2]['fotoUrl']?>')"></div> 
                     </a>
                 </div>
@@ -78,7 +78,7 @@
                             <?php echo $listaPalavrasConvertidas[($listaNovaNoticia[2]["tipo"])]?>
                         </p>
                     </a>
-                    <a class="link-noticia-nova" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNovaNoticia[2]['id'] ?>">
+                    <a class="link-noticia-nova" href="/noticia/<?php echo $listaNovaNoticia[2]['id'] ?>">
                         <p class="titulo-noticia-nova">
                             <?php echo $listaNovaNoticia[2]["title"]?>
                         </p>
@@ -92,7 +92,7 @@
             <div class="noticia-nova">
                 <!-- Imagem da notícia principal -->
                 <div class="div-img-nova">
-                    <a class="link-noticia-nova" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[3]['id'] ?>">
+                    <a class="link-noticia-nova" href="/noticia/<?php echo $listaNoticia[3]['id'] ?>">
                         <div class="img-noticia-nova" style="background-image: url('<?php echo $listaNovaNoticia[3]['fotoUrl']?>')"></div> 
                     </a>
                 </div>
@@ -104,7 +104,7 @@
                             <?php echo $listaPalavrasConvertidas[($listaNovaNoticia[3]["tipo"])]?>
                         </p>
                     </a>
-                    <a class="link-noticia-nova" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNovaNoticia[3]['id'] ?>">
+                    <a class="link-noticia-nova" href="/noticia/<?php echo $listaNovaNoticia[3]['id'] ?>">
                         <p class="titulo-noticia-nova">
                             <?php echo $listaNovaNoticia[3]["title"]?>
                         </p>

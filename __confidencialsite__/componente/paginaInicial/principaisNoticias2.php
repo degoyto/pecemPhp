@@ -12,7 +12,7 @@
                 <?php echo $listaPalavrasConvertidas[($listaNoticia[1]["tipo"])]?>
             </p>
         </a>
-        <a class="link-noticia" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[1]['id'] ?>">
+        <a class="link-noticia" href="/noticia/<?php echo $listaNoticia[1]['id'] ?>">
             <p class="titulo-noticia-2">
                 <?php echo $listaNoticia[1]["title"]?>
             </p>
@@ -25,7 +25,7 @@
                 <?php echo $listaPalavrasConvertidas[($listaNoticia[2]["tipo"])]?>
             </p>
         </a>
-        <a class="link-noticia" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[2]['id'] ?>">
+        <a class="link-noticia" href="/noticia/<?php echo $listaNoticia[2]['id'] ?>">
             <p class="titulo-noticia-2">
                 <?php echo $listaNoticia[2]["title"]?>
             </p>
@@ -41,7 +41,7 @@
                 <?php echo $listaPalavrasConvertidas[($listaNoticia[3]["tipo"])]?>
             </p>
         </a>
-        <a class="link-noticia" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[3]['id'] ?>">
+        <a class="link-noticia" href="/noticia/<?php echo $listaNoticia[3]['id'] ?>">
             <p class="titulo-noticia-2">
                 <?php echo $listaNoticia[3]["title"]?>
             </p>
@@ -56,7 +56,7 @@
                 <?php echo $listaPalavrasConvertidas[($listaNoticia[4]["tipo"])]?>
             </p>
         </a>
-        <a class="link-noticia" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[4]['id'] ?>">
+        <a class="link-noticia" href="/noticia/<?php echo $listaNoticia[4]['id'] ?>">
             <p class="titulo-noticia-2">
                 <?php echo $listaNoticia[4]["title"]?>
             </p>

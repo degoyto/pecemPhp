@@ -12,22 +12,22 @@
         <!-- início da div de notícias -->
         <div class="container div-noticia">
             <!-- Imagem da notícia principal -->
-            <a class="link-noticia" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[0]['id'] ?>">
+            <a class="link-noticia" href="/noticia/<?php echo $listaNoticia[0]['id'] ?>">
                 <div class="img-noticia" style="background-image: url('<?php echo $listaNoticia[0]['fotoUrl']?>')"></div> 
             </a>
-            <!-- <a class="link-noticia" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[0]['id'] ?>">
+            <!-- <a class="link-noticia" href="/noticia/<?php echo $listaNoticia[0]['id'] ?>">
                 <div class="img-noticia">
                     <img src="<?php echo $listaNoticia[0]['fotoUrl']?>"/>
                 </div> 
             </a> -->
             <!-- início da div com os dados da notícia -->
             <div class="div-info">
-                <a href="noticias/<?php echo $listaPalavras[($listaNoticia[0]['tipo'])] ?>">
+                <a href="/noticias/<?php echo $listaPalavras[($listaNoticia[0]['tipo'])] ?>">
                     <p class="tipo-noticia">
                         <?php echo $listaPalavrasConvertidas[($listaNoticia[0]["tipo"])]?>
                     </p>
                 </a>
-                <a class="link-noticia" href="https://jornalportodopecem.com.br/noticia/<?php echo $listaNoticia[0]['id'] ?>">
+                <a class="link-noticia" href="/noticia/<?php echo $listaNoticia[0]['id'] ?>">
                     <p class="titulo-noticia">
                         <?php echo $listaNoticia[0]["title"]?>
                     </p>

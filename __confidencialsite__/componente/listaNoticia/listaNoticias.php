@@ -26,19 +26,19 @@
                     $intervalo = 0; 
                     while ($exibe_news = mysqli_fetch_assoc($resultado_noticia) ){
                         echo "<div class='container cada-noticia'>
-                            <div class='img-lista-news'><a class='tipo-lista' href='/pecemphp/noticia/".$exibe_news['id']."'>
+                            <div class='img-lista-news'><a class='tipo-lista' href='/noticia/".$exibe_news['id']."'>
                                 <img src='".$exibe_news['fotoUrl']."'/></a>
                             </div>
                             <div class='news-info'>
-                                <a class='tipo-lista' href='/pecemphp/noticias/".$listaPalavras[($exibe_news['tipo'])]."'>" 
+                                <a class='tipo-lista' href='/noticias/".$listaPalavras[($exibe_news['tipo'])]."'>" 
                                     .$listaPalavrasConvertidas[($exibe_news['tipo'])]
                                     .
                                 "</a><br>
-                                <a class='titulo-lista' href='/pecemphp/noticia/".$exibe_news['id']."'>" 
+                                <a  href='/noticia/".$exibe_news['id']."'><p class='titulo-lista'>" 
                                     .$exibe_news['title']
                                     .
-                                "</a>
-                                <p>"
+                                "</p></a>
+                                <p class='data-lista-noticia'>"
                                     .converteData($exibe_news['createdAt']).
                                 "</p> 
                             </div> 
@@ -58,10 +58,10 @@
                         
                           
                        
-                        echo "<nav aria-label='Page navigation example'><ul class='pagination' ><li class='page-ite'><li class='page-item'> <a class='page-link' href='/pecemphp/noticias'>Início</a></li>";
+                        echo "<nav aria-label='Page navigation example'><ul class='pagination' ><li class='page-ite'><li class='page-item'> <a class='page-link' href='/noticias'>Início</a></li>";
                         for ($pag_ant = $pagina - $max_link; $pag_ant <=$pagina -1; $pag_ant++){
                             if ($pag_ant >= 1){
-                                echo "<li class='page-item'><a class='page-link' href='/pecemphp/noticias?pagina=$pag_ant'>$pag_ant</a></li>";
+                                echo "<li class='page-item'><a class='page-link' href='/noticias?pagina=$pag_ant'>$pag_ant</a></li>";
 
                             }
                         }
@@ -70,21 +70,21 @@
 
                         for ($pag_dps = $pagina + 1; $pag_dps <= $pagina + $max_link ; $pag_dps++){
                             if ($pag_dps <= $qnt_pag){
-                                echo "<li class='page-item ' ><a class='page-link' href='/pecemphp/noticias?pagina=$pag_dps'>$pag_dps</a></li>";
+                                echo "<li class='page-item ' ><a class='page-link' href='/noticias?pagina=$pag_dps'>$pag_dps</a></li>";
 
                             }
                         }
-                        echo "<li class='page-item'><a class='page-link' href='/pecemphp/noticias?pagina=$qnt_pag'>Final</a></li> </ul>
+                        echo "<li class='page-item'><a class='page-link' href='/noticias?pagina=$qnt_pag'>Final</a></li> </ul>
                         </nav>";
                     }
 
 
                     else{
-                        echo "<nav aria-label='Page navigation example'><ul class='pagination'><li class='page-item'><a class='page-link' href='/pecemphp/noticias/".$listaPalavras[($URL[1])]."'>Início</a></li>";
+                        echo "<nav aria-label='Page navigation example'><ul class='pagination'><li class='page-item'><a class='page-link' href='/noticias/".$listaPalavras[($URL[1])]."'>Início</a></li>";
 
                         for ($pag_ant = $pagina - $max_link; $pag_ant <=$pagina -1; $pag_ant++){
                             if ($pag_ant >= 1){
-                                echo "<li class='page-item'><a class='page-link' href='/pecemphp/noticias/".$listaPalavras[($URL[1])]."?pagina=$pag_ant'>$pag_ant</a></li>";
+                                echo "<li class='page-item'><a class='page-link' href='/noticias/".$listaPalavras[($URL[1])]."?pagina=$pag_ant'>$pag_ant</a></li>";
 
                             }
                         }
@@ -93,12 +93,12 @@
 
                         for ($pag_dps = $pagina + 1; $pag_dps <= $pagina + $max_link ; $pag_dps++){
                             if ($pag_dps <= $qnt_pag){
-                                echo "<li class='page-item'><a class='page-link' href='/pecemphp/noticias/".$listaPalavras[($URL[1])]."?pagina=$pag_dps'>$pag_dps</a></li>";
+                                echo "<li class='page-item'><a class='page-link' href='/noticias/".$listaPalavras[($URL[1])]."?pagina=$pag_dps'>$pag_dps</a></li>";
 
                             }
                         }
 
-                        echo "<li class='page-item'><a class='page-link' href='/pecemphp/noticias/".$listaPalavras[($URL[1])]."?pagina=$qnt_pag'>Última</a></li> </ul>
+                        echo "<li class='page-item'><a class='page-link' href='/noticias/".$listaPalavras[($URL[1])]."?pagina=$qnt_pag'>Última</a></li> </ul>
                         </nav>";
                     }
                     

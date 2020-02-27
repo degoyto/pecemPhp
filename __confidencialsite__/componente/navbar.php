@@ -15,64 +15,64 @@
 
             <div class="collapse navbar-collapse menu" id="conteudoNavbarSuportado">
                 <ul class="navbar-nav mr-auto pc">
-                    <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(6)]?>" >destaques portuários</a></li>
+                    <li><a href="/noticias/<?php echo $listaPalavras[(6)]?>" >destaques portuários</a></li>
         
-                    <li class="noticias-btn"><a href="/pecemphp/noticias/<?php echo $listaPalavras[(15)]?>"  >Notícias</a>
+                    <li class="noticias-btn"><a href="/noticias/<?php echo $listaPalavras[(15)]?>"  >Notícias</a>
                         <ul>
-                            <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(11)]?>" >Nacionais</a></li>
+                            <li><a href="/noticias/<?php echo $listaPalavras[(11)]?>" >Nacionais</a></li>
                             
-                            <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(12)]?>"  >Internacionais</a></li>
+                            <li><a href="/noticias/<?php echo $listaPalavras[(10)]?>"  >Internacionais</a></li>
                                             
                         </ul>
                     </li>
                     
-                    <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(1)]?>"  >Artigos e Opinião</a></li>
+                    <li><a href="/noticias/<?php echo $listaPalavras[(1)]?>"  >Artigos e Opinião</a></li>
                     
-                    <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(13)]?>"  > turismo</a></li>
+                    <li><a href="/noticias/<?php echo $listaPalavras[(13)]?>"  > turismo</a></li>
 
-                    <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(4)]?>"  >Comércio exterior</a></li>
-                    <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(9)]?>" >logística e transporte</a></li>
-                    <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(7)]?>"  >entrevistas</a></li> 
-                    <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(12)]?>"  >Portos do Brasil</a></li>
-                    <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(8)]?>"  >Eventos</a></li>
+                    <li><a href="/noticias/<?php echo $listaPalavras[(4)]?>"  >Comércio exterior</a></li>
+                    <li><a href="/noticias/<?php echo $listaPalavras[(9)]?>" >logística e transporte</a></li>
+                    <li><a href="/noticias/<?php echo $listaPalavras[(7)]?>"  >entrevistas</a></li> 
+                    <li><a href="/noticias/<?php echo $listaPalavras[(12)]?>"  >Portos do Brasil</a></li>
+                    <li><a href="/noticias/<?php echo $listaPalavras[(8)]?>"  >Eventos</a></li>
                 </ul>
 
 
                 <ul class="cel">
             
-                    <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(6)]?>" >destaques portuários</a></li>
-                    <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(11)]?>" >Nacionais</a></li>
+                    <li><a href="/noticias/<?php echo $listaPalavras[(6)]?>" >destaques portuários</a></li>
+                    <li><a href="/noticias/<?php echo $listaPalavras[(11)]?>" >Nacionais</a></li>
                             
-                    <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(12)]?>"  >Internacionais</a></li>
+                    <li><a href="/noticias/<?php echo $listaPalavras[(12)]?>"  >Internacionais</a></li>
                     
-                    <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(1)]?>"  >Artigos e Opinião</a></li>
+                    <li><a href="/noticias/<?php echo $listaPalavras[(1)]?>"  >Artigos e Opinião</a></li>
                     
-                    <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(13)]?>"  > turismo</a></li>
+                    <li><a href="/noticias/<?php echo $listaPalavras[(13)]?>"  > turismo</a></li>
 
-                    <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(4)]?>"  >Comércio exterior</a></li>
-                    <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(9)]?>" >logística e transporte</a></li>
-                    <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(7)]?>"  >entrevistas</a></li> 
-                    <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(12)]?>"  >Portos do Brasil</a></li>
-                    <li><a href="/pecemphp/noticias/<?php echo $listaPalavras[(8)]?>"  >Eventos</a></li>
+                    <li><a href="/noticias/<?php echo $listaPalavras[(4)]?>"  >Comércio exterior</a></li>
+                    <li><a href="/noticias/<?php echo $listaPalavras[(9)]?>" >logística e transporte</a></li>
+                    <li><a href="/noticias/<?php echo $listaPalavras[(7)]?>"  >entrevistas</a></li> 
+                    <li><a href="/noticias/<?php echo $listaPalavras[(12)]?>"  >Portos do Brasil</a></li>
+                    <li><a href="/noticias/<?php echo $listaPalavras[(8)]?>"  >Eventos</a></li>
                                                         
                 </ul>
 
 
 
-                <form class="form-inline my-2 my-lg-0 pesquise" id="formulario">
+                <!--<form class="form-inline my-2 my-lg-0 pesquise" id="formulario">
                     <input class="form-control mr-sm-2" id="input-pesquisa" type="search" placeholder="Pesquisar" aria-label="Pesquise">
                     <button class="btn btn-outline-success my-2 my-sm-0 btn-pesquisa" type="submit">Pesquise</button>
-                    <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button> -->
+                   <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button> -->
                 </form>
             </div>
         </nav>
     </div>
 </div>
 <div class="container" style="margin-top:13px; width:150%;">
-    <form class="form-inline my-2 my-lg-0 pesquisa" id="formulario">
+    <!-- <form class="form-inline my-2 my-lg-0 pesquisa" id="formulario">
         <input size="46.5" class="form-control mr-sm-2 form-control-sm input-pesquisa" type="search" placeholder="Pesquise" aria-label="Pesquisar">
         <button class="btn btn-outline-success my-2 my-sm-2 btn-sm btn-pesquisa"  type="submit">Pesquisar</button>
-        <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button> -->
+         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button> -->
     </form>
 
 </div>

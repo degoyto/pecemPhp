@@ -6,7 +6,7 @@
     if($INITE){
         $REQUEST_URI = substr($REQUEST_URI, 0, $INITE);
     }
-    $REQUEST_URI_PASTA = substr($REQUEST_URI, 10);
+    $REQUEST_URI_PASTA = substr($REQUEST_URI,  1);
 
     $URL = explode("/", $REQUEST_URI_PASTA);
     if ($URL[0] == ''){
@@ -30,7 +30,7 @@
                 $URL[1] = encontraPalavra($URL[1], $listaPalavras);
                 
                 if ($URL[1] === -1){
-                    header("Location: http://localhost/pecemphp/noticias");
+                    header("Location: http://testejornal.tk/noticias");
                 }
             }
             

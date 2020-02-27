@@ -1,13 +1,13 @@
 <?php 
     include("api/db.php");
-    $titulo = filter_input(INPUT_POST, 'titulo', FILTER_SANITIZE_STRING);
-    $tipo = filter_input(INPUT_POST, 'tipo', FILTER_SANITIZE_STRING);
-    $destacar = filter_input(INPUT_POST, 'destacar', FILTER_SANITIZE_STRING);
-    $linkImagem = filter_input(INPUT_POST, 'link-image', FILTER_SANITIZE_STRING);
-    $legenda = filter_input(INPUT_POST, 'legenda', FILTER_SANITIZE_STRING);
-    $resumo = filter_input(INPUT_POST, 'resumo', FILTER_SANITIZE_STRING);
+    $titulo = filter_input(INPUT_POST, 'titulo', FILTER_SANITIZE_STRING, 'UTF-8');
+    $tipo = filter_input(INPUT_POST, 'tipo', FILTER_SANITIZE_STRING, 'UTF-8');
+    $destacar = filter_input(INPUT_POST, 'destacar', FILTER_SANITIZE_STRING, 'UTF-8');
+    $linkImagem = filter_input(INPUT_POST, 'link-image', FILTER_SANITIZE_STRING, 'UTF-8');
+    $legenda = filter_input(INPUT_POST, 'legenda', FILTER_SANITIZE_STRING, 'UTF-8');
+    $resumo = filter_input(INPUT_POST, 'resumo', FILTER_SANITIZE_STRING, 'UTF-8');
     $conteudo = $_POST['conteudo'];
-    $autor = filter_input(INPUT_POST, 'autor', FILTER_SANITIZE_STRING);
+    $autor = filter_input(INPUT_POST, 'autor', FILTER_SANITIZE_STRING, 'UTF-8');
 
     echo $titulo."<br>";
     echo $tipo."<br>";

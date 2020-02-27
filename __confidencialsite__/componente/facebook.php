@@ -22,14 +22,14 @@
 <div class="container">
     <div class="container caixa-face">
         <div class="fb-like" 
-            data-href="http://testejornal.tk/noticia/<?php echo $id ?>/" 
+            data-href="http://jornalportodopecem.com.br/noticia/<?php echo $id ?>/" 
             data-width="" data-layout="standard" data-action="like" 
             data-size="large" 
             data-share="true">
         </div>
         
         <div class="fb-comments comentario" 
-            data-href="http://testejornal.tk/noticia/<?php echo $id ?>/" 
+            data-href="http://jornalportodopecem.com.br/noticia/<?php echo $id ?>/" 
             data-width="" data-numposts="5">
         </div>
 
