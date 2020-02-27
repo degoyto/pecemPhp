@@ -9,6 +9,15 @@
     $conteudo = $_POST['conteudo'];
     $autor = filter_input(INPUT_POST, 'autor', FILTER_SANITIZE_STRING, 'UTF-8');
 
+    $titulo = mysqli_real_escape_string($connect, $titulo);
+    $tipo = mysqli_real_escape_string($connect, $tipo);
+    $destacar = mysqli_real_escape_string($connect, $destacar);
+    $linkImagem = mysqli_real_escape_string($connect, $linkImagem);
+    $legenda = mysqli_real_escape_string($connect, $legenda);
+    $resumo = mysqli_real_escape_string($connect, $resumo);
+    $conteudo = mysqli_real_escape_string($connect, $conteudo);
+    $autor = mysqli_real_escape_string($connect, $autor);
+
     echo $titulo."<br>";
     echo $tipo."<br>";
     echo $destacar."<br>";
@@ -21,7 +30,7 @@
     $sql = "INSERT INTO Noticia (title, conteudo, resumo, fotoUrl, legenda, autor, destaque, tipo, createdAt, updatedAt) VALUES ('$titulo','$conteudo','$resumo', '$linkImagem','$legenda','$autor','$destacar', '$tipo', NOW(), NOW())";
     if (mysqli_query($connect, $sql)) {
         echo "New record created successfully";
-        header("Location: http://testejornal.tk/add");
+        header("Location: http://jornalportodopecem.com.br/home");
     } else {
         echo "Error: " . $sql . "<br>" . mysqli_error($connect);
     }

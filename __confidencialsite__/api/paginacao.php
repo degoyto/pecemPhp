@@ -1,7 +1,7 @@
 <?php 
     include("db.php");
     // total de itens por pagina
-    $itens_por_pagina = 10;
+    $itens_por_pagina = 6;
     mysqli_set_charset($connect,"utf8");
     // pagina atual
     $pag_atual = filter_input(INPUT_GET,'pagina', FILTER_SANITIZE_NUMBER_INT);

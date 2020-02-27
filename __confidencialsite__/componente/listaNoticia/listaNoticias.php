@@ -16,12 +16,13 @@
 <html>
     <div class="container lista-noticias">
         <div class="container div-noticias-anuncios">
-            <div class="div-noticias"> 
+            <div class="container div-noticias"> 
                 <h1 >
                     <?php 
                         echo $listaPalavrasConvertidas[($URL[1])];
                     ?>
                 </h1>
+                <hr class='linhas-lista'/>
                 <?php
                     $intervalo = 0; 
                     while ($exibe_news = mysqli_fetch_assoc($resultado_noticia) ){
@@ -41,10 +42,11 @@
                                 <p class='data-lista-noticia'>"
                                     .converteData($exibe_news['createdAt']).
                                 "</p> 
+                                <hr class='linhas-lista'/>
                             </div> 
                             
                         </div>";
-                        // if ($intervalo ==5){
+                        // if ($intervalo ==3){
                         //     echo 
                         //     "<div class='anuncio-lista-noticia'>
                         //         <img src='https://firebasestorage.googleapis.com/v0/b/jornal-porto-do-pecem.appspot.com/o/anuncio.jpg?alt=media&token=df4d99dd-84b5-4a9e-bda9-e15c12842135'/>
@@ -108,7 +110,8 @@
                 ?>
                 
                    
-            </div>
+            </div><!-- fim da div-noticias -->
+            <div class="div-anuncios"></div>
         </div>
     </div>
     

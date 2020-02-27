@@ -6,9 +6,10 @@
     if($INITE){
         $REQUEST_URI = substr($REQUEST_URI, 0, $INITE);
     }
-    $REQUEST_URI_PASTA = substr($REQUEST_URI,  1);
+    $REQUEST_URI_PASTA = substr($REQUEST_URI,  10);
 
     $URL = explode("/", $REQUEST_URI_PASTA);
+    
     if ($URL[0] == ''){
         $URL[0] = 'home';
     }
