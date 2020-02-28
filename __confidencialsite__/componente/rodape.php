@@ -34,8 +34,8 @@
                 <li><a href="#">EMPREGOS NO PECÉM</a></li>    -->
 
                 <li><a href="/quem-somos">QUEM SOMOS</a></li>
-                <!-- <li><a href="https://jornalportodopecem.com.br/#/expediente">EXPEDIENTE</a></li>
-                <li><a href="#">CONTATO</a></li> -->
+                <li><a href="expediente">EXPEDIENTE</a></li>
+                <!--<li><a href="#">CONTATO</a></li> -->
                 
             </ul>
 			

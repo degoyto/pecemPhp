@@ -1,8 +1,10 @@
-.texto-quemsomos{
+.texto-expediente{
     width:70%;
     margin-top:50px;
+    
 }
-.texto-quemsomos h1{
+
+.texto-expediente h1{
     margin-top: 20px;
     font-size: 22px;
     font-weight: bold;
@@ -15,7 +17,13 @@ hr{
     margin-top:3px;
     margin-bottom:30px;
     width:100%;
-  }
-.texto-quemsomos p{
+}
+.texto-expediente h2{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.texto-expediente p{
     margin-bottom: 100px;
 }
