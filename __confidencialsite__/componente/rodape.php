@@ -31,12 +31,12 @@
 
                 <!-- 
                 <li><a class="primeiro-link" href="#">INFORMAÇÕES ÚTEIS</a></li>
-                <li><a href="#">EMPREGOS NO PECÉM</a></li>    
+                <li><a href="#">EMPREGOS NO PECÉM</a></li>    -->
 
-                <li><a href="https://jornalportodopecem.com.br/#/quemsomos">QUEM SOMOS</a></li>
-                <li><a href="https://jornalportodopecem.com.br/#/expediente">EXPEDIENTE</a></li>
-                <li><a href="#">CONTATO</a></li>
-                -->
+                <li><a href="/quem-somos">QUEM SOMOS</a></li>
+                <!-- <li><a href="https://jornalportodopecem.com.br/#/expediente">EXPEDIENTE</a></li>
+                <li><a href="#">CONTATO</a></li> -->
+                
             </ul>
 			
 			<p class="copyright">Copyright Jornal do Porto do Pecém 2019. Todos os direitos reservados.</p>

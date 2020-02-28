@@ -16,7 +16,7 @@
         </div>
         
         <div class="logo-anuncio">
-            <a class="logo" href="/">
+            <a class="logo-quemsomos" href="/">
                 <img src="https://firebasestorage.googleapis.com/v0/b/jornal-porto-do-pecem.appspot.com/o/logo.svg?alt=media&token=445447d8-81bb-4cdb-8006-55eb0c677445"/>
             </a>
             <!-- <a class="anuncio" href="https://jornalportodopecem.com.br">

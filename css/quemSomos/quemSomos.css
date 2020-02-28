@@ -1,0 +1,20 @@
+.texto-quemsomos{
+    width:70%;
+    margin-top:50px;
+}
+.texto-quemsomos h1{
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+hr{
+    display:block;
+    border-top: 4px solid #009999;
+    margin-left:0px;
+    margin-top:3px;
+    margin-bottom:30px;
+    width:100%;
+  }
+.texto-quemsomos p{
+    margin-bottom: 100px;
+}
