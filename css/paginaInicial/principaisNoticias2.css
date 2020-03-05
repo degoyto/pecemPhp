@@ -4,6 +4,10 @@
    width:100%;
    
 }
+.caixa-dois{
+    margin-left:-15px;
+    margin-top:50px;
+}
 
 .caixa-noticia-2 a:hover{
     text-decoration: none;
@@ -22,7 +26,7 @@
 
 .titulo-noticia-2{
     color:#212121;
-    
+    font-weight: bold;
 
 }
 

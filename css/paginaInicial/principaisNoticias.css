@@ -77,11 +77,18 @@ hr{
     margin-top:20px;
     border-style: solid;
     border-width: 1px;
-    
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/jornal-porto-do-pecem.appspot.com/o/anuncios%2FanuncioJornal.jpg?alt=media&token=a1905c0c-729e-4f0f-b985-4ed2d3aca28e');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height:300px;
+    margin-left:-20px;
 }
 
 .div-anuncio img{
     width:100%;
+    object-fit: contain;
 }
 
 /* botao boletim */
@@ -97,7 +104,10 @@ hr{
     color:white;
     border:none;
 }
-
+.outros a{
+    text-decoration: none;
+    color:black
+}
 
 @media screen and (min-width: 992px){
     .div-noticia-outros{
@@ -125,6 +135,8 @@ hr{
         padding: 20px;
         padding-top:0px;
         text-align: center;
+        align-items: center;
+       
     }
     hr{
         width:56%;
@@ -137,14 +149,11 @@ hr{
     
     }
     .div-anuncio{
-        width:95%;
-        height:180px;
-        
+        width:320px;
+        height:320px;
+        margin-left: 35px;
     }
-    .div-anuncio img{
-        width:cover;
-        margin-top:12%;
-    }
+    
     .btn-boletim{
         width:90%;
         

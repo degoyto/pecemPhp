@@ -30,10 +30,10 @@
     margin-left:30px;
 }
 .ativo{
-    display: block;
+    display: block !important;
 }
 .desativado{
-    display: none;
+    display: none !important;
 }
 
 .quadro-escolha button{
@@ -54,4 +54,7 @@
     margin-top:60px;
     margin-bottom:20px;
     font-weight:bold;
+}
+.btn-div-confirma{
+    transition: 0.5s;
 }

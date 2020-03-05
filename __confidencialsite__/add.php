@@ -84,8 +84,8 @@
             document.getElementById('img-concluido').classList.remove("desativado");
             document.getElementById('img-concluido').classList.add("ativo");
 
-            document.getElementById('btn-confirma').classList.remove("desativado");
-            document.getElementById('btn-confirma').classList.add("ativado");
+            document.getElementById('btn-div-confirma').classList.remove("desativado");
+            document.getElementById('btn-div-confirma').classList.add("ativado");
             
             imageelement.src = url
             testeelement.value = url

@@ -43,7 +43,9 @@
             <!-- <div class="outras-noticias-principais">
                 <?php //include("principaisNoticias2.php")?>
             </div>final de outras notícias principais -->
-            
+            <div class="outras-noticias-principais-cel">
+                <?php include("principaisNoticias2.php")?>
+            </div>
         </div> <!-- final da div notícias -->
 
 
@@ -86,20 +88,17 @@
                 </script>
             </div>
             
-            <div class="container div-anuncio">
-                <a href="http://www.rodopublis.com.br" class="link-anuncio">
-                    <img src="https://imagensportopecem2.s3.amazonaws.com/anuncios/rodo.jpg" class="anuncio">
-                </a>
-            </div>
+            <a href="http://www.rodopublis.com.br" class="link-anuncio">
+                <div class="div-anuncio">
+                </div>
+            </a>
             <button type="button" class="btn btn-primary btn-boletim" onclick="window.location.href = 'noticias/boletim-portuario'">BOLETIM PORTUÁRIO</button>
             <!-- <button type="button" class="btn btn-primary btn-boletim">CLASSIFICADOS</button> -->
             <!-- TradingView Widget END -->
         </div>
     </div>
 
-    <div class="outras-noticias-principais-cel">
-        <?php include("principaisNoticias2.php")?>
-    </div>
+    
     
    
 </div>

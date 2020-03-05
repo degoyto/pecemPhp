@@ -4,7 +4,7 @@
 
 ?>
 <!-- principais noticias 2 -->
-<div class="container caixa-dois">
+<div class="caixa-dois">
     <!-- informações da notícia -->
     <div class="caixa-noticia-2 container">
         <a href="noticias/<?php echo $listaPalavras[($listaNoticia[1]['tipo'])] ?>">
@@ -50,20 +50,7 @@
         </a>
     </div>
 
-    <div class="caixa-noticia-2 container">
-        <a href="noticias/<?php echo $listaPalavras[($listaNoticia[4]['tipo'])] ?>">
-            <p class="tipo-noticia-2">
-                <?php echo $listaPalavrasConvertidas[($listaNoticia[4]["tipo"])]?>
-            </p>
-        </a>
-        <a class="link-noticia" href="/noticia/<?php echo $listaNoticia[4]['id'] ?>">
-            <p class="titulo-noticia-2">
-                <?php echo $listaNoticia[4]["title"]?>
-            </p>
-            
-            
-        </a>
-    </div>
+    
    
    
     

@@ -88,7 +88,10 @@
             <div class="container quadro-escolha" style="width:320px">
                 <img id='img-processando' class='img-processando ativo' src="https://firebasestorage.googleapis.com/v0/b/jornal-porto-do-pecem.appspot.com/o/processando.gif?alt=media&token=c025e6f2-b548-4309-9779-0083b785db58"/>
                 <img id='img-concluido' class='img-concluido desativado' src="https://firebasestorage.googleapis.com/v0/b/jornal-porto-do-pecem.appspot.com/o/source.gif?alt=media&token=092cd258-d37c-4b4d-a22a-ab0ff15ee0d6"/>
-                <button id="btn-confirma" type="submit" class="btn btn-primary botao-enviar  desativado">Confirmar</button>
+                <div id='btn-div-confirma' class="btn-div-confirma desativado">
+                    <button id="btn-confirma" type="submit" class="btn btn-primary botao-enviar">Confirmar</button>
+                </div>
+                
             </div>
             
         </div>
